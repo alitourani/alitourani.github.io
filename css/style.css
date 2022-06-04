@@ -8705,6 +8705,7 @@ h1, h2, h3, h4, h5,
 
 .ftco-about .team-wrap .team {
   width: 100%;
+  margin-bottom: 12px;
   text-align: center; }
   .ftco-about .team-wrap .team .img {
     width: 90px;
