@@ -48,7 +48,7 @@
   /**
    * Typing effect for the greeting message
    */
-  const typeText = "Hey; thanks for dropping by! ";
+  const typeText = "Hey; I'm Ali! ";
   let typeTextIdx = 0;
   const typeTextSpeed = 100; // Speed in milliseconds (100ms per character)
 
