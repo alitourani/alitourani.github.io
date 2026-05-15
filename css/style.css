@@ -1168,9 +1168,9 @@ select {
 /* Contact Section */
 
 .contact .contact-info-item {
-    flex: 0 0 33.33%;
-    -ms-flex: 0 0 33.33%;
-    max-width: 33.33%;
+    flex: 0 0 50.00%;
+    -ms-flex: 0 0 50.00%;
+    max-width: 50.00%;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -1245,6 +1245,23 @@ select {
 .contact .contact-form .btn {
     height: 50px;
     padding: 0 50px;
+}
+
+.logos {
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.logos a {
+  display: inline-block;
+  margin-bottom: 7px;
+  margin-right: 10px;
+}
+
+.logos a:hover {
+  opacity: 0.5;
 }
 
 /* Responsive */
