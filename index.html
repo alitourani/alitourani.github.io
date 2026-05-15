@@ -1,2755 +1,818 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
   <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>Ali Tourani | Home</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="The personal web-page of Ali Tourani, Doctoral Researcher at SnT, the University of Luxembourg"
+      content="The personal web-page of Ali Tourani, Postdoctoral Researcher at SnT, the University of Luxembourg"
     />
     <meta
       name="keywords"
-      content="Ali Tourani; Tourani; SnT; University of Luxembourg; Luxembourg; Computer Vision; Robotics;"
+      content="Ali Tourani; Tourani; SnT; University of Luxembourg; Luxembourg; Computer Vision; Robotics; Generative AI; Visual RAG;"
     />
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon" />
-    <link href="assets/img/favicon.png" rel="apple-touch-icon" />
+    <link href="images/favicon.png" rel="icon" />
+    <link href="images/favicon.png" rel="apple-touch-icon" />
+    
+    <!-- Template css Files -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com" rel="preconnect" />
-    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <!-- Live Style Switcher - Demo Only -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
-    />
-
-    <!-- Vendor CSS Files -->
-    <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
+      class="alternate-style"
+      title="pink"
+      href="css/skins/pink.css"
+      type="text/css"
+      disabled
     />
     <link
-      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
       rel="stylesheet"
+      class="alternate-style"
+      title="blue"
+      href="css/skins/blue.css"
+      type="text/css"
+      disabled
     />
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
     <link
-      href="assets/vendor/glightbox/css/glightbox.min.css"
       rel="stylesheet"
+      class="alternate-style"
+      title="green"
+      href="css/skins/green.css"
+      type="text/css"
+      disabled
     />
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
-
-    <!-- Main CSS File -->
-    <link href="assets/css/main.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      class="alternate-style"
+      title="orange"
+      href="css/skins/orange.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      class="alternate-style"
+      title="yellow"
+      href="css/skins/yellow.css"
+      type="text/css"
+      disabled
+    />
+    <link rel="stylesheet" href="css/styleSwitcher.css" type="text/css" />
   </head>
 
-  <body class="index-page">
-    <header id="header" class="header dark-background d-flex flex-column">
-      <i class="header-toggle d-xl-none bi bi-list"></i>
-
-      <!-- Menu Main Image -->
-      <div class="profile-img">
-        <img
-          src="assets/img/alitourani.jpg"
-          alt=""
-          class="img-fluid rounded-circle"
-        />
-      </div>
-
-      <!-- Menu Name -->
-      <a
-        href="index.html"
-        class="logo d-flex align-items-center justify-content-center"
-      >
-        <h1 class="sitename">Ali TOURANI</h1>
-      </a>
-
-      <!-- Menu Links -->
-      <div class="social-links text-center">
-        <a href="https://www.uni.lu/snt-en/people/ali-tourani/" target="_blank"
-          ><i class="bi bi-house-door-fill"></i
-        ></a>
-        <a href="https://www.linkedin.com/in/alitourani/" target="_blank"
-          ><i class="bi bi-linkedin"></i
-        ></a>
-        <a href="https://github.com/alitourani" target="_blank"
-          ><i class="bi bi-github"></i
-        ></a>
-        <a
-          href="http://scholar.google.com/citations?user=_VkNRkUAAAAJ&hl=en"
-          target="_blank"
-          ><i class="bi bi-mortarboard-fill"></i
-        ></a>
-        <a href="https://twitter.com/a_tourani" target="_blank"
-          ><i class="bi-twitter-x"></i
-        ></a>
-      </div>
-
-      <!-- Menu Navigation -->
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li>
-            <a href="#home" class="active"
-              ><i class="bi bi-house navicon"></i>Home</a
-            >
-          </li>
-          <li>
-            <a href="#experiences"
-              ><i class="bi bi-person navicon"></i>Experiences</a
-            >
-          </li>
-          <li>
-            <a href="#projects"
-              ><i class="bi bi-file-earmark-text navicon"></i>Projects</a
-            >
-          </li>
-          <li>
-            <a href="#contributions"
-              ><i class="bi bi-hdd-stack navicon"></i>Scientific
-              Contributions</a
-            >
-          </li>
-          <li class="content">
-            <a href="#materials"
-              ><i class="bi bi-menu-button navicon"></i>Contents and
-              Materials</a
-            >
-          </li>
-          <li>
-            <a href="#blog"
-              ><i class="bi bi-rss-fill navicon"></i>What's New?</a
-            >
-          </li>
-          <li>
-            <a href="#contact"
-              ><i class="bi bi-envelope navicon"></i>Contact Me</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </header>
-
-    <main class="main">
-      <!-- About Section -->
-      <section id="home" class="about section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <div>
-            <h2 id="typing-text">
-              <img src="assets/img/hi-emoji.gif" width="35" />
-            </h2>
-          </div>
-        </div>
-        <!-- End Section Title -->
-
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <div class="row gy-4 justify-content-center">
-            <div class="col-lg-4">
-              <img
-                src="assets/img/alitourani-mask.png"
-                class="img-fluid mb-4"
-                alt=""
-              />
-              <!-- <div class="ratio ratio-16x9 mb-4">
-                <iframe
-                  src="https://www.youtube.com/embed/ooDzxg3lHjw"
-                  title="iMarkers Video by SnT"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen
-                ></iframe>
-              </div> -->
-            </div>
-            <div class="col-lg-8 content">
-              <!-- <h2>UI/UX Designer &amp; Web Developer.</h2> -->
-              <p class="fst-italic py-3">
-                I currently work as a
-                <b>Doctoral researcher</b> at the
-                <a href="https://www.uni.lu/snt-en/" target="_blank"
-                  >Interdisciplinary Centre for Security, Reliability, and Trust
-                  (SnT)</a
-                >
-                of the
-                <a href="https://www.uni.lu/en/" target="_blank"
-                  >University of Luxembourg</a
-                >. I conduct research in <b>Computer Vision</b>,
-                <b>Situational Awareness</b>, and <b>Robotics</b>, investigating
-                possible solutions to make robots more intelligent and aware of
-                their surroundings with the aid of vision sensors.
-              </p>
-              <div class="brands">
-                <a
-                  href="https://www.uni.lu/snt-en/people/ali-tourani/"
-                  target="_blank"
-                  ><img src="assets/img/logos/home.svg" width="30px" alt="Home"
-                /></a>
-                <a
-                  href="https://www.linkedin.com/in/alitourani/"
-                  target="_blank"
-                  ><img
-                    src="assets/img/logos/linkedin.svg"
-                    width="30px"
-                    alt="LinkedIn"
-                /></a>
-                <a href="https://github.com/alitourani" target="_blank"
-                  ><img
-                    src="assets/img/logos/github.svg"
-                    width="30px"
-                    alt="GitHub"
-                /></a>
-                <a
-                  href="http://scholar.google.com/citations?user=_VkNRkUAAAAJ&hl=en"
-                  target="_blank"
-                  ><img
-                    src="assets/img/logos/gscholar.svg"
-                    width="30px"
-                    alt="Google Scholar"
-                /></a>
-                <a href="https://orcid.org/0000-0002-6955-1172" target="_blank"
-                  ><img
-                    src="assets/img/logos/orcid.svg"
-                    width="30px"
-                    alt="ORCID"
-                /></a>
-                <a
-                  href="https://www.researchgate.net/profile/Ali-Tourani-2"
-                  target="_blank"
-                  ><img
-                    src="assets/img/logos/researchgate.svg"
-                    width="30px"
-                    alt="Researchgate"
-                /></a>
-                <a href="https://uni-lu.academia.edu/AliTourani" target="_blank"
-                  ><img
-                    src="assets/img/logos/academia.svg"
-                    width="30px"
-                    alt="Academia"
-                /></a>
-                <a
-                  href="https://www.webofscience.com/wos/author/record/HNQ-0031-2023"
-                  target="_blank"
-                  ><img
-                    src="assets/img/logos/publons.svg"
-                    width="30px"
-                    alt="WoS"
-                /></a>
-                <a
-                  href="https://stackoverflow.com/users/2425822/ali-tourani"
-                  target="_blank"
-                  ><img
-                    src="assets/img/logos/stackoverflow.svg"
-                    width="30px"
-                    alt="StackOverflow"
-                /></a>
-                <a href="https://medium.com/@alitourani" target="_blank"
-                  ><img
-                    src="assets/img/logos/medium.svg"
-                    width="30px"
-                    alt="Medium"
-                /></a>
-                <a href="https://huggingface.co/alitourani" target="_blank"
-                  ><img
-                    src="assets/img/logos/huggingface.svg"
-                    width="30px"
-                    alt="HuggingFace"
-                /></a>
-                <a href="https://twitter.com/a_tourani" target="_blank"
-                  ><img
-                    src="assets/img/logos/twitter.svg"
-                    width="30px"
-                    alt="Twitter"
-                /></a>
-                <a href="https://www.instagram.com/alitourani_" target="_blank"
-                  ><img
-                    src="assets/img/logos/instagram.svg"
-                    width="30px"
-                    alt="Instagram"
-                /></a>
-                <a href="https://www.facebook.com/ali.tourani/" target="_blank"
-                  ><img
-                    src="assets/img/logos/facebook.svg"
-                    width="30px"
-                    alt="Facebook"
-                /></a>
-                <a href="https://www.youtube.com/@a_tourani" target="_blank"
-                  ><img
-                    src="assets/img/logos/youtube.svg"
-                    width="30px"
-                    alt="YouTube"
-                /></a>
-              </div>
-              <div class="row">
-                <div class="col-lg-12">
-                  <h6>📚 <strong>Fields of Interest</strong></h6>
-                  <p>
-                    <i class="bi bi-chevron-right"></i>
-                    <a
-                      href="https://dblp.org/search?q=computer+vision"
-                      class="tag-cloud-link"
-                      target="_blank"
-                      >Computer Vision</a
-                    >,
-                    <a
-                      href="https://dblp.org/search?q=situational+awareness"
-                      class="tag-cloud-link"
-                      target="_blank"
-                      >Situational Awareness</a
-                    >,
-                    <a
-                      href="https://dblp.org/search?q=deep+learning"
-                      class="tag-cloud-link"
-                      target="_blank"
-                      >Deep Learning</a
-                    >,
-                    <a
-                      href="https://dblp.org/search?q=robotics"
-                      class="tag-cloud-link"
-                      target="_blank"
-                      >Robotics</a
-                    >,
-                    <a
-                      href="https://dblp.org/search?q=information+retrieval"
-                      class="tag-cloud-link"
-                      target="_blank"
-                      >Information Retrieval</a
-                    >
-                  </p>
-                  <h6>🌎 <strong>Languages</strong></h6>
-                  <div class="row">
-                    <div class="col-6 col-md-4 d-flex align-items-center mb-2">
-                      <img
-                        src="assets/img/flags/england.svg"
-                        alt="English"
-                        class="me-2"
-                        style="width: 20px; height: auto"
-                      />
-                      <span>English</span>
-                      <span class="badge bg-primary ms-2">C1</span>
-                    </div>
-                    <div class="col-6 col-md-4 d-flex align-items-center mb-2">
-                      <img
-                        src="assets/img/flags/france.svg"
-                        alt="French Flag"
-                        class="me-2"
-                        style="width: 20px; height: auto"
-                      />
-                      <span>French</span>
-                      <span class="badge bg-info ms-2">B1</span>
-                    </div>
-                    <div class="col-6 col-md-4 d-flex align-items-center mb-2">
-                      <img
-                        src="assets/img/flags/germany.svg"
-                        alt="German Flag"
-                        class="me-2"
-                        style="width: 20px; height: auto"
-                      />
-                      <span>German</span>
-                      <span class="badge bg-secondary ms-2">A1</span>
-                    </div>
-                    <div class="col-6 col-md-4 d-flex align-items-center mb-2">
-                      <img
-                        src="assets/img/flags/luxembourg.svg"
-                        alt="Luxembourgish Flag"
-                        class="me-2"
-                        style="width: 20px; height: auto"
-                      />
-                      <span>Luxembourgish</span>
-                      <span class="badge bg-secondary ms-2">A1</span>
-                    </div>
-                    <div class="col-6 col-md-4 d-flex align-items-center mb-2">
-                      <img
-                        src="assets/img/flags/saudi.svg"
-                        alt="Arabic Flag"
-                        class="me-2"
-                        style="width: 20px; height: auto"
-                      />
-                      <span>Arabic</span>
-                      <span class="badge bg-warning ms-2">A2</span>
-                    </div>
-                    <div class="col-6 col-md-4 d-flex align-items-center mb-2">
-                      <img
-                        src="assets/img/flags/turkey.svg"
-                        alt="Turkish Flag"
-                        class="me-2"
-                        style="width: 20px; height: auto"
-                      />
-                      <span>Turkish</span>
-                      <span class="badge bg-secondary ms-2">A1</span>
-                    </div>
-                    <div class="col-6 col-md-4 d-flex align-items-center mb-2">
-                      <img
-                        src="assets/img/flags/iran.svg"
-                        alt="Persian Flag"
-                        class="me-2"
-                        style="width: 20px; height: auto"
-                      />
-                      <span>Persian</span>
-                      <span class="badge bg-success ms-2">Mother Tongue</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- /About Section -->
-
-      <section id="honors" class="services section light-background">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h4>🏆 Honors and Awards</h4>
-        </div>
-        <!-- End Section Title -->
-        <div class="container">
-          <div class="row gy-4">
-            <div
-              class="col-lg-4 col-md-6 service-item d-flex"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <div class="icon flex-shrink-0">
-                <i class="bi bi-mortarboard-fill"></i>
-              </div>
-              <div>
-                <h4 class="title">
-                  Securing a Fully Funded Position in a Ph.D. Program
-                </h4>
-                <p class="description">
-                  Acknowledged for securing a competitive position in a Ph.D.
-                  program amidst a pool of candidates for the project
-                  "TRANSCEND" funded by the Institute for Advanced Studies
-                  (IAS), University of Luxembourg (Mar. 2022)
-                </p>
-              </div>
-            </div>
-            <div
-              class="col-lg-4 col-md-6 service-item d-flex"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <div class="icon flex-shrink-0">
-                <i class="bi bi-graph-up-arrow"></i>
-              </div>
-              <div>
-                <h4 class="title">
-                  The highest GPA among all Computer Engineering Students (Class
-                  of 2016)
-                </h4>
-                <p class="description">
-                  Achieved the highest Grade Point Average (GPA) among all
-                  Computer Engineering students of the University of Guilan,
-                  Iran, in the class of 2016 for three consecutive semesters
-                  (Nov. 2017)
-                </p>
-              </div>
-            </div>
-            <div
-              class="col-lg-4 col-md-6 service-item d-flex"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <div class="icon flex-shrink-0">
-                <i class="bi bi-clipboard-data-fill"></i>
-              </div>
-              <div>
-                <h4 class="title">The Best Student Researcher Award</h4>
-                <p class="description">
-                  Issued by the Department of Computer Engineering of the
-                  University of Guilan, Iran, regarding the scientific and
-                  practical contributions and achievements as a student (Nov.
-                  2017)
-                </p>
-              </div>
-            </div>
-            <div
-              class="col-lg-4 col-md-6 service-item d-flex"
-              data-aos="fade-up"
-              data-aos-delay="400"
-            >
-              <div class="icon flex-shrink-0">
-                <i class="bi bi-highlighter"></i>
-              </div>
-              <div>
-                <h4 class="title">
-                  Scholarship for Master's in Computer Engineering
-                </h4>
-                <p class="description">
-                  Granted through a nationwide examination process, competing
-                  among over 25,000 applicants (Sep. 2016)
-                </p>
-              </div>
-            </div>
-            <div
-              class="col-lg-4 col-md-6 service-item d-flex"
-              data-aos="fade-up"
-              data-aos-delay="500"
-            >
-              <div class="icon flex-shrink-0">
-                <i class="bi bi-award-fill"></i>
-              </div>
-              <div>
-                <h4 class="title">Top-15 Business Planners Award</h4>
-                <p class="description">
-                  Issued by 10th Sheikh Bahai National Technopreneurship
-                  Competitions, Iran (May 2014)
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Experiences Section -->
-      <section id="experiences" class="resume section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Experiences</h2>
-        </div>
-        <!-- End Section Title -->
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-              <h3 class="resume-title">Education</h3>
-
-              <div class="resume-item">
-                <h4>Doctor of Philosophy (Ph.D.)</h4>
-                <h5>2022 - 2026 (expected)</h5>
-                <p>
-                  <em
-                    >Computer Science,
-                    <a href="https://www.uni.lu/en/" target="_blank"
-                      >University of Luxembourg</a
-                    >, Luxembourg</em
-                  >
-                </p>
-                <ul>
-                  <li>
-                    <b>Affiliation: </b
-                    ><a href="https://www.uni.lu/snt-en/" target="_blank">SnT</a
-                    >, Automation and Robotics Group (<a
-                      href="https://www.uni.lu/snt-en/research-groups/arg/"
-                      target="_blank"
-                      >ARG</a
-                    >)
-                  </li>
-                  <li>
-                    <b>Supervisor: </b
-                    ><a
-                      href="https://www.uni.lu/snt-en/people/holger-voos/"
-                      target="_blank"
-                      >Prof. Holger Voos</a
-                    >
-                  </li>
-                  <li>
-                    <b>Project: </b>TRansforming Autonomous Navigation, Swarm
-                    robotics, and Construction by ENcoding Data into surfaces
-                    (TRANSCEND)
-                  </li>
-                </ul>
-              </div>
-
-              <div class="resume-item">
-                <h4>Master of Science (M.Sc.)</h4>
-                <h5>2016 - 2019</h5>
-                <p>
-                  <em
-                    >Computer Engineering,
-                    <a
-                      href="https://en.wikipedia.org/wiki/University_of_Guilan"
-                      target="_blank"
-                      >University of Guilan</a
-                    >, Iran</em
-                  >
-                </p>
-                <ul>
-                  <li>
-                    <b>Department: </b>Computer Engineering, Faculty of
-                    Engineering
-                  </li>
-                  <li>
-                    <b>Supervisor: </b
-                    ><a
-                      href="https://scholar.google.com/citations?user=RbUZMnEAAAAJ&hl=en"
-                      target="_blank"
-                      >Prof. Asadollah Shahbahrami</a
-                    >
-                  </li>
-                  <li>
-                    <b>Thesis: </b>Automatic Vehicle Speeding Violation
-                    Detection using Video Processing (<a
-                      href="https://github.com/alitourani/vehicle-speed-measurement"
-                      target="_blank"
-                      >more</a
-                    >)
-                  </li>
-                  <li>
-                    <b>Graduation: </b>Defended on January 20, 2019 (Score: A+)
-                  </li>
-                </ul>
-              </div>
-
-              <div class="resume-item">
-                <h4>Bachelor of Science (B.Sc.)</h4>
-                <h5>2009 - 2013</h5>
-                <p>
-                  <em
-                    >Computer Engineering,
-                    <a
-                      href="https://en.wikipedia.org/wiki/University_of_Guilan"
-                      target="_blank"
-                      >University of Guilan</a
-                    >, Iran</em
-                  >
-                </p>
-                <ul>
-                  <li>
-                    <b>Department: </b>Computer Engineering, Faculty of
-                    Engineering
-                  </li>
-                  <li>
-                    <b>Project: </b>An E-Ticketing System for Medical Clinics
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-              <h3 class="resume-title">Employment</h3>
-              <div class="resume-item">
-                <h4>Doctoral Researcher</h4>
-                <h5>2022 - now (full-time)</h5>
-                <p>
-                  <em
-                    ><a href="https://www.uni.lu/snt-en/" target="_blank"
-                      >Interdisciplinary Centre for Security, Reliability, and
-                      Trust (SnT)</a
-                    >, Luxembourg</em
-                  >
-                </p>
-                <p>
-                  Conducting research to employ visual data to make robots more
-                  aware of their sorroundings (Situational Awareness) by forming
-                  digital twins
-                </p>
-              </div>
-
-              <div class="resume-item">
-                <h4>Full-Stack Developer</h4>
-                <h5>2019 - 2021 (full-time)</h5>
-                <p>
-                  <em
-                    ><a href="https://www.lernito.com/" target="_blank"
-                      >AVID Technology Development</a
-                    >, Rasht, Guilan, Iran</em
-                  >
-                </p>
-                <p>
-                  Working on various international web projects using SOTA
-                  tools, including Next.js, React.js, GraphQL, Node.js,
-                  Elasticsearch, Neo4j, MongoDB, <i>etc.</i>
-                </p>
-              </div>
-
-              <div class="resume-item">
-                <h4>Research Software Engineer</h4>
-                <h5>2019 - 2021 (part-time)</h5>
-                <p>
-                  <em
-                    ><a href="https://www.gstp.ir/" target="_blank"
-                      >Guilan Science and Technology Park Business Incubator</a
-                    >, Rasht, Guilan, Iran</em
-                  >
-                </p>
-                <p>
-                  Conducting research on "Automatic Vehicle Detection &amp;
-                  Tracking”
-                </p>
-              </div>
-
-              <div class="resume-item">
-                <h4>University Lecturer</h4>
-                <h5>2018 - 2021 (part-time)</h5>
-                <p>
-                  <em>University of Guilan, Rasht, Guilan, Iran</em>
-                </p>
-                <p>
-                  Instructing “Computational Intelligence” (fours semesters)
-                  &amp; “Computer Engineering Laboratory” (one semester) courses
-                  to undergraduate students
-                </p>
-              </div>
-
-              <div class="resume-item">
-                <h4>Android and Web Developer</h4>
-                <h5>2016 - 2017 (full-time)</h5>
-                <p>
-                  <em>Andish Bonyan Fannavar Varna, Rasht, Guilan, Iran</em>
-                </p>
-              </div>
-
-              <div class="resume-item">
-                <h4>Interactive E-Learning Content Developer</h4>
-                <h5>2013 - 2017 (contract)</h5>
-                <p>
-                  <em>IEHT Guilan Training Center, Rasht, Guilan, Iran</em>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- /Experiences Section -->
-
-      <!-- Projects Section -->
-      <section id="projects" class="portfolio section light-background">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Projects</h2>
-        </div>
-        <!-- End Section Title -->
-
-        <div class="container">
-          <div
-            class="isotope-layout"
-            data-default-filter="*"
-            data-layout="masonry"
-            data-sort="original-order"
-          >
-            <ul
-              class="portfolio-filters isotope-filters"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">Robotics</li>
-              <li data-filter=".filter-product">Computer Vision</li>
-              <li data-filter=".filter-branding">Recommender Systems</li>
-              <li data-filter=".filter-books">Other</li>
-            </ul>
-
-            <div
-              class="row gy-4 isotope-container"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <div
-                class="col-lg-3 col-md-6 portfolio-item isotope-item filter-app"
-              >
-                <!-- vS-Graphs -->
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/project/vs-graphs-2.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>vS-Graphs Framework</h4>
-                    <p>
-                      A real-time visual SLAM framework, providing hierarchical
-                      graph-based scene representations
-                    </p>
-                    <a
-                      href="assets/img/project/vs-graphs-2.png"
-                      title="vS-Graphs Framework"
-                      data-gallery="portfolio-gallery-app"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="pages/project-robotics-vslam.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End vS-Graphs -->
-              <!-- Marker -->
-              <div
-                class="col-lg-3 col-md-6 portfolio-item isotope-item filter-app"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/project/imarker-4.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>iMarkers for Advanced Robotics</h4>
-                    <p>
-                      A new generation of fiducial markers for robotics,
-                      invisible to humans but detectable by robots
-                    </p>
-                    <a
-                      href="assets/img/project/imarker-4.jpg"
-                      title="iMarkers for Advanced Robotics"
-                      data-gallery="portfolio-gallery-app"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="pages/project-robotics-markers.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End Marker -->
-              <!-- Movie RecSys -->
-              <div
-                class="col-lg-3 col-md-6 portfolio-item isotope-item filter-branding"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/project/movie-recsys.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Movie Recommener System</h4>
-                    <p>
-                      A movie recommender system based on frame-level extracted
-                      visual features
-                    </p>
-                    <a
-                      href="assets/img/project/movie-recsys.png"
-                      title="Movie Recommener System"
-                      data-gallery="portfolio-gallery-branding"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="pages/project-recsys-movie.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End Movie RecSys -->
-              <!-- POI RecSys -->
-              <div
-                class="col-lg-3 col-md-6 portfolio-item isotope-item filter-branding"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/project/poi-2.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Point-of-Interest (PoI) RecSys</h4>
-                    <p>
-                      Various Point-of-Interest (PoI) recommender system tools
-                      and frameworks
-                    </p>
-                    <a
-                      href="assets/img/project/poi-2.png"
-                      title="Point-of-Interest (PoI) RecSys"
-                      data-gallery="portfolio-gallery-branding"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="pages/project-recsys-poi.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End POI RecSys -->
-              <!-- Iranis -->
-              <div
-                class="col-lg-3 col-md-6 portfolio-item isotope-item filter-product"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/project/iranis.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Iranis Dataset</h4>
-                    <p>
-                      A Large-scale dataset of Farsi digits and letters
-                      extracted from vehicle license plates
-                    </p>
-                    <a
-                      href="assets/img/project/iranis.png"
-                      title="Iranis Dataset"
-                      data-gallery="portfolio-gallery-product"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="pages/project-iranis.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End Iranis -->
-              <!-- Deep ALPR -->
-              <div
-                class="col-lg-3 col-md-6 portfolio-item isotope-item filter-product"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/project/vehicle-alpr.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Deep Learning ALPR</h4>
-                    <p>
-                      An end-to-end vehicle license plate detection and
-                      character recognition system based on YOLO
-                    </p>
-                    <a
-                      href="assets/img/project/vehicle-alpr.jpg"
-                      title="Deep Learning ALPR"
-                      data-gallery="portfolio-gallery-product"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="pages/project-vehicle-alpr.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End Deep ALPR -->
-              <!-- AcaRecom -->
-              <div
-                class="col-lg-3 col-md-6 portfolio-item isotope-item filter-branding"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/project/acarecom.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Academic Recommendation System</h4>
-                    <p>
-                      A smart academic recommender system to assisst researchers
-                      in their career
-                    </p>
-                    <a
-                      href="pages/project-acarecom.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End AcaRecom -->
-              <!-- Vehicle Detection -->
-              <div
-                class="col-lg-3 col-md-6 portfolio-item isotope-item filter-product"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/project/dl-vehicle-detection-1.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Deep Learning-based Vehicle Detection</h4>
-                    <p>
-                      A deep learning-based vehicle detection framework based on
-                      Faster R-CNN algorithm
-                    </p>
-                    <a
-                      href="assets/img/project/dl-vehicle-detection-1.jpg"
-                      title="Deep Learning-based Vehicle Detection"
-                      data-gallery="portfolio-gallery-product"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="pages/project-vehicle-detection.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End Vehicle Detection -->
-              <!-- Speed Measure -->
-              <div
-                class="col-lg-3 col-md-6 portfolio-item isotope-item filter-product"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/project/vehicle-speed-measurement.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Vehicle Speed Measurement</h4>
-                    <p>
-                      A motion-based vehicle speed measurement application for
-                      speeding violation detection
-                    </p>
-                    <a
-                      href="assets/img/project/vehicle-speed-measurement.jpg"
-                      title="Vehicle Speed Measurement for Speeding Violation Detection"
-                      data-gallery="portfolio-gallery-product"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="pages/project-vehicle-speed-measurement.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End Speed Measure -->
-              <!-- E-Content -->
-              <div
-                class="col-lg-3 col-md-6 portfolio-item isotope-item filter-books"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/project/elearn.png"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Interactive E-Content Development</h4>
-                    <p>
-                      Developing interactive e-Learning materials for various
-                      companies and educational centers
-                    </p>
-                    <a
-                      href="pages/project-elearning.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End E-Content -->
-              <!-- Human Tracker -->
-              <div
-                class="col-lg-3 col-md-6 portfolio-item isotope-item filter-product"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/project/tracker.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Human Tracking for Bank Security</h4>
-                    <p>
-                      A suspicious individual activity detection and tracking
-                      system for bank security
-                    </p>
-                    <a
-                      href="pages/project-human-tracker.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End Human Tracker -->
-              <!-- Vehicle Count -->
-              <div
-                class="col-lg-3 col-md-6 portfolio-item isotope-item filter-product"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/project/vehicle-count.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Vehicle Count and Traffic Monitoring</h4>
-                    <p>
-                      A system designed to accurately count the number of
-                      passing vehicles and estimate traffic flow
-                    </p>
-                    <a
-                      href="assets/img/project/vehicle-count.jpg"
-                      title="Vehicle Count and Traffic Monitoring"
-                      data-gallery="portfolio-gallery-product"
-                      class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
-                    ></a>
-                    <a
-                      href="pages/project-vehicle-count.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End Vehicle Count -->
-              <!-- E-Booking -->
-              <div
-                class="col-lg-3 col-md-6 portfolio-item isotope-item filter-books"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/project/ebooking.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Online Appointment Booking</h4>
-                    <p>An E-booking platform developed for medical clinics</p>
-                    <a
-                      href="pages/project-booking.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End E-Booking -->
-              <!-- Parsiab -->
-              <div
-                class="col-lg-3 col-md-6 portfolio-item isotope-item filter-books"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/project/parsiab.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="portfolio-info">
-                    <h4>Parsiab Search Engine</h4>
-                    <p>
-                      A localized search engine for Persian (Farsi) academic
-                      documents
-                    </p>
-                    <a
-                      href="pages/project-search-engine.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End Parsiab -->
-              <!-- E-Learning Kids -->
-              <div
-                class="col-lg-3 col-md-6 portfolio-item isotope-item filter-books"
-              >
-                <div class="portfolio-content h-100">
-                  <img
-                    src="assets/img/project/elearn-kids.jpg"
-                    class="img-fluid"
-                    alt="E-Learning Platform for Pre-Schoolers"
-                  />
-                  <div class="portfolio-info">
-                    <h4>E-Learning Platform for Pre-Schoolers</h4>
-                    <p>
-                      An interactive E-Learning application for pre-schoolers
-                    </p>
-                    <a
-                      href="pages/project-elearn-kids.html"
-                      title="More Details"
-                      class="details-link"
-                      ><i class="bi bi-link-45deg"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-              <!-- End E-Learning Kids -->
-            </div>
-            <!-- End Portfolio Container -->
-          </div>
-        </div>
-      </section>
-      <!-- /Portfolio Section -->
-
-      <!-- Scientific Contributions Section -->
-      <section id="contributions" class="resume section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Recent Publications</h2>
-          <span class="subheading"
-            >For the complete list, please check the
-            <a href="./pages/publications.html" target="_blank"
-              >All Publications <i class="bi bi-link"></i
-            ></a>
-            page or my
-            <a
-              href="http://scholar.google.com/citations?user=_VkNRkUAAAAJ&hl=en"
-              target="_blank"
-              >Google Scholar <i class="bi bi-box-arrow-up-right"></i
-            ></a>
-            profile.</span
-          >
-        </div>
-        <!-- End Section Title -->
-
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-              <!-- 2026 -->
-              <h3 class="resume-title">2026</h3>
-              <div class="resume-item pb-0">
-                <h4>International Conferences</h4>
-                <ul>
-                  <li>
-                    <u>A. Tourani</u>, F. Nazary, Y. Deldjoo, and T. Di Noia,
-                    “<b
-                      >Popcorn: A Full-Movie-Trailer Aligned Dataset and
-                      Framework for Multimodal Movie Recommendation with LLMs
-                      and Visual Retrieval-Augmented Generation</b
-                    >,”
-                    <i
-                      >49th International ACM SIGIR Conference on Research and
-                      Development in Information Retrieval (SIGIR'26)</i
-                    >, [Under Review -
-                    <a href="#" target="_blank" class="custom-btn">ArXiv</a>
-                    -
-                    <a
-                      href="https://github.com/RecSys-lab/Popcorn"
-                      target="_blank"
-                      class="custom-btn"
-                      >GitHub</a
-                    >
-                    -
-                    <a
-                      href="https://recsys-lab.github.io/popcorn_dataset/"
-                      target="_blank"
-                      class="custom-btn"
-                      >Dataset</a
-                    >
-                    -
-                    <a
-                      href="https://recsys-lab.github.io/Popcorn/"
-                      target="_blank"
-                      class="custom-btn"
-                      >Web-page</a
-                    >]
-                  </li>
-                </ul>
-                <h4>Peer-review Journals</h4>
-                <ul>
-                  <li>
-                    M. Etemadi, N. Esmi, <u>A. Tourani</u>, A. Shahbahrami, and
-                    A. Daemdoost, “<b
-                      >Applications of AI Algorithms for Eye Movement Analysis
-                      in Neurodevelopmental Disorders</b
-                    >,” <i>ACM Computing Surveys</i>, [Under Review -
-                    <a href="#" target="_blank" class="custom-btn">ArXiv</a>]
-                  </li>
-                  <li>
-                    L. Ribeiro, M. Shaheer, M. Fernandez-Cortizas,
-                    <u>A. Tourani</u>, H. Voos, and J.L. Sanchez-Lopez, “<b
-                      >Human Interaction for Collaborative Semantic SLAM using
-                      Extended Reality</b
-                    >,”
-                    <i>ACM Transactions on Human-Robot Interaction (THRI)</i>,
-                    [Under Review -
-                    <a
-                      href="https://arxiv.org/abs/2509.14949"
-                      target="_blank"
-                      class="custom-btn"
-                      >ArXiv</a
-                    >]
-                  </li>
-                  <li>
-                    A. Bikandi-Noya, M. Fernandez-Cortizas, M. Shaheer,
-                    <u>A. Tourani</u>, H. Voos, and J.L. Sanchez-Lopez, “<b
-                      >BIM Informed Visual SLAM for Construction Monitoring</b
-                    >,” <i>IEEE Robotics and Automation Letters (RA-L)</i>,
-                    [Under Review -
-                    <a
-                      href="https://arxiv.org/abs/2509.13972"
-                      target="_blank"
-                      class="custom-btn"
-                      >ArXiv</a
-                    >]
-                  </li>
-                  <li>
-                    <u>A. Tourani</u>, F. Nazary, and Y. Deldjoo, “<b
-                      >RAG-VisualRec: An Open Resource for Vision-and
-                      Text-Enhanced Retrieval-Augmented Generation in
-                      Recommendation</b
-                    >,” <i>ACM Transactions on Recommender Systems</i>,
-                    [Accepted -
-                    <a
-                      href="https://doi.org/10.48550/arXiv.2506.20817"
-                      target="_blank"
-                      class="custom-btn"
-                      >ArXiv</a
-                    >
-                    -
-                    <a
-                      href="https://github.com/RecSys-lab/RAG-VisualRec"
-                      target="_blank"
-                      class="custom-btn"
-                      >GitHub</a
-                    >
-                    -
-                    <a
-                      href="https://recsys-lab.github.io/RAG-VisualRec/"
-                      target="_blank"
-                      class="custom-btn"
-                      >Web-page</a
-                    >]
-                  </li>
-                  <li>
-                    P.M. Bastos Soares, <u>A. Tourani</u>, M.
-                    Fernandez-Cortizas, A. Bikandi Noya, H. Voos, and J.L.
-                    Sanchez-Lopez, “<b
-                      >SMapper: A Multi-Modal Data Acquisition Platform for SLAM
-                      Benchmarking</b
-                    >,” <i>Journal of Intelligent & Robotic Systems (JINT)</i>,
-                    vol. 112, no. 20 [<a
-                      href="https://doi.org/10.1007/s10846-026-02351-7"
-                      target="_blank"
-                      class="custom-btn"
-                      >DOI</a
-                    >
-                    -
-                    <a
-                      href="https://doi.org/10.48550/arXiv.2509.09509"
-                      target="_blank"
-                      class="custom-btn"
-                      >ArXiv</a
-                    >
-                    -
-                    <a
-                      href="https://github.com/snt-arg/smapper_toolbox/"
-                      target="_blank"
-                      class="custom-btn"
-                      >GitHub</a
-                    >
-                    -
-                    <a
-                      href="https://huggingface.co/datasets/snt-arg/smapper-light"
-                      target="_blank"
-                      class="custom-btn"
-                      >Dataset</a
-                    >
-                    -
-                    <a
-                      href="https://snt-arg.github.io/smapper_docs/"
-                      target="_blank"
-                      class="custom-btn"
-                      >Web-page</a
-                    >]
-                  </li>
-                  <li>
-                    S. Ejaz, M. Giberna, M. Shaheer, J.A. Millan-Romera,
-                    <u>A. Tourani</u>, P. Kremer, H. Voos, and J.L.
-                    Sanchez-Lopez, “<b
-                      >Situationally-aware Path Planning Exploiting 3D Scene
-                      Graphs</b
-                    >,” <i>IEEE Robotics and Automation Letters (RA-L)</i>, 11,
-                    no. 3, pp. 3358-3365 [<a
-                      href="https://doi.org/10.1109/LRA.2026.3656775"
-                      target="_blank"
-                      class="custom-btn"
-                      >DOI</a
-                    >
-                    -
-                    <a
-                      href="https://doi.org/10.48550/arXiv.2508.06283"
-                      target="_blank"
-                      class="custom-btn"
-                      >ArXiv</a
-                    >]
-                  </li>
-                </ul>
-              </div>
-
-              <!-- 2025 -->
-              <h3 class="resume-title">2025</h3>
-              <div class="resume-item pb-0">
-                <h4>Peer-review Journals</h4>
-                <ul>
-                  <li>
-                    I.M. Chekam, I. Pastor-Martinez, <u>A. Tourani</u>, J.A.
-                    Millan-Romera, L. Ribeiro, P.M. Bastos Soares, H. Voos, and
-                    J.L. Sanchez-Lopez, “<b
-                      >Interpretable Robot Control via Structured Behavior Trees
-                      and Large Language Models</b
-                    >,” <i>IEEE Access</i>, vol. 13, pp. 200905-200916 [<a
-                      href="https://doi.org/10.1109/ACCESS.2025.3635471"
-                      target="_blank"
-                      class="custom-btn"
-                      >DOI</a
-                    >
-                    -
-                    <a
-                      href="https://arxiv.org/abs/2508.09621"
-                      target="_blank"
-                      class="custom-btn"
-                      >ArXiv</a
-                    >
-                    -
-                    <a
-                      href="https://github.com/snt-arg/robot_suite"
-                      target="_blank"
-                      class="custom-btn"
-                      >GitHub</a
-                    >
-                    -
-                    <a
-                      href="https://snt-arg.github.io/robot_suite/"
-                      target="_blank"
-                      class="custom-btn"
-                      >Web-page</a
-                    >]
-                  </li>
-                  <li>
-                    F. Nazary, <u>A. Tourani</u>, Y. Deldjoo, and T. Di Noia,
-                    “<b
-                      >ViLLA-MMBench: A Unified Benchmark Suite for
-                      LLM-Augmented Multimodal Movie Recommendation</b
-                    >,” <i>ACM Transactions on Recommender Systems</i>, [Under
-                    Review -
-                    <a
-                      href="https://doi.org/10.48550/arXiv.2508.04206"
-                      target="_blank"
-                      class="custom-btn"
-                      >ArXiv</a
-                    >
-                    -
-                    <a
-                      href="https://github.com/RecSys-lab/ViLLA-MMBench"
-                      target="_blank"
-                      class="custom-btn"
-                      >GitHub</a
-                    >
-                    -
-                    <a
-                      href="https://recsys-lab.github.io/ViLLA-MMBench/"
-                      target="_blank"
-                      class="custom-btn"
-                      >Web-page</a
-                    >]
-                  </li>
-                  <li>
-                    <u>A. Tourani</u>, S. Ejaz, H. Bavle, D. Morilla-Cabello,
-                    J.L. Sanchez-Lopez, and H. Voos, “<b
-                      >vS-Graphs: Integrating Visual SLAM and Situational Graphs
-                      through Multi-level Scene Understanding,</b
-                    >” <i>IEEE Robotics and Automation Letters (RA-L)</i>,
-                    [Under Review -
-                    <a
-                      href="https://arxiv.org/abs/2503.01783"
-                      target="_blank"
-                      class="custom-btn"
-                      >ArXiv</a
-                    >]
-                  </li>
-                  <li>
-                    <u>A. Tourani</u>, D. Avşar, H. Bavle, J.L. Sanchez-Lopez,
-                    and H. Voos, “<b
-                      >Unveiling the Potential of iMarkers: Invisible Fiducial
-                      Markers for Advanced Robotics,</b
-                    >” <i>IEEE Robotics & Automation Magazine (RA-M)</i>, [Under
-                    Review -
-                    <a
-                      href="https://arxiv.org/abs/2501.15505"
-                      target="_blank"
-                      class="custom-btn"
-                      >ArXiv</a
-                    >]
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-              <!-- 2024 -->
-              <h3 class="resume-title">2024</h3>
-              <div class="resume-item pb-0">
-                <h4>International Conferences</h4>
-                <ul>
-                  <li>
-                    <u>A. Tourani</u>, S. Ejaz, H. Bavle, H. Voos, J.L.
-                    Sanchez-Lopez, and H. Voos, “<b
-                      >Towards Localizing Structural Elements: Merging
-                      Geometrical Detection with Semantic Verification in RGB-D
-                      Data,</b
-                    >”
-                    <i
-                      >IEEE/RSJ International Conference on Intelligent Robots
-                      and Systems (IROS'24) - 14th Workshop on Planning,
-                      Perception and Navigation for Intelligent Vehicles</i
-                    >, Abu Dhabi, UAE, 2024 [<a
-                      href="https://github.com/TUM-AVS/IROS24_Workshop/blob/main/paper/6_Tourani_paper_iros24.pdf"
-                      target="_blank"
-                      class="custom-btn"
-                      >Link</a
-                    >
-                    -
-                    <a
-                      href="https://arxiv.org/abs/2409.06625"
-                      target="_blank"
-                      class="custom-btn"
-                      >ArXiv</a
-                    >]
-                  </li>
-                  <li>
-                    A. Radwan, <u>A. Tourani</u>, H. Bavle, H. Voos, and J. L.
-                    Sanchez-Lopez, “<b
-                      >UAV-assisted Visual SLAM Generating Reconstructed 3D
-                      Scene Graphs in GPS-denied Environments,</b
-                    >”
-                    <i
-                      >International Conference on Unmanned Aircraft Systems
-                      (ICUAS'24)</i
-                    >, Chania - Crete, Greece, 2024, pp. 1109-1116 [<a
-                      href="https://doi.org/10.1109/ICUAS60882.2024.10556948"
-                      target="_blank"
-                      class="custom-btn"
-                      >DOI</a
-                    >
-                    -
-                    <a
-                      href="https://arxiv.org/abs/2402.07537"
-                      target="_blank"
-                      class="custom-btn"
-                      >ArXiv</a
-                    >]
-                  </li>
-                </ul>
-                <h4>Peer-review Journals</h4>
-                <ul>
-                  <li>
-                    <u>A. Tourani</u>, H. Bavle, J. L. Sanchez-Lopez, D. Avşar,
-                    R. Munoz-Salinas, and H. Voos, “<b
-                      >Vision-Based Situational Graphs Exploiting Fiducial
-                      Markers for the Integration of Semantic Entities,</b
-                    >” <i>Robotics</i>, vol. 13, no. 7, p. 106 [<a
-                      href="https://doi.org/10.3390/robotics13070106"
-                      target="_blank"
-                      class="custom-btn"
-                      >DOI</a
-                    >
-                    -
-                    <a
-                      href="https://arxiv.org/abs/2309.10461"
-                      target="_blank"
-                      class="custom-btn"
-                      >ArXiv</a
-                    >]
-                  </li>
-                  <li>
-                    B. Ghari, <u>A. Tourani</u>, A. Shahbahrami, G. Gaydadjiev,
-                    “<b
-                      >Pedestrian Detection in Low-Light Conditions: A
-                      Comprehensive Survey,</b
-                    >” <i>Image and Vision Computing</i> [<a
-                      href="https://doi.org/10.1016/j.imavis.2024.105106"
-                      target="_blank"
-                      class="custom-btn"
-                      >DOI</a
-                    >
-                    -
-                    <a
-                      href="https://arxiv.org/abs/2401.07801"
-                      target="_blank"
-                      class="custom-btn"
-                      >ArXiv</a
-                    >]
-                  </li>
-                  <li>
-                    <u>A. Tourani</u>, H. A. Rahmani, M. Naghiaei, and Y.
-                    Deldjoo, “<b
-                      >CAPRI: Context-Aware Interpretable Point-of-Interest
-                      Recommendation Framework,</b
-                    >” <i>Software Impacts</i>, vol. 19, p. 100606 [<a
-                      href="https://doi.org/10.1016/j.simpa.2023.100606"
-                      target="_blank"
-                      class="custom-btn"
-                      >DOI</a
-                    >
-                    -<a
-                      href="https://arxiv.org/abs/2306.11395"
-                      target="_blank"
-                      class="custom-btn"
-                      >ArXiv</a
-                    >,
-                    <a
-                      href="https://github.com/CapriRecSys/CAPRI"
-                      target="_blank"
-                      class="custom-btn"
-                    >
-                      Code </a
-                    >,
-                    <a
-                      href="https://caprirecsys.github.io/CAPRI/"
-                      target="_blank"
-                      class="custom-btn"
-                    >
-                      Web-page </a
-                    >]
-                  </li>
-                </ul>
-              </div>
-              <!-- 2023 -->
-              <h3 class="resume-title">2023</h3>
-              <div class="resume-item pb-0">
-                <h4>International Conferences</h4>
-                <ul>
-                  <li>
-                    <u>A. Tourani</u>, H. Bavle, J. L. Sanchez-Lopez, R.
-                    Munoz-Salinas, and H. Voos, “<b
-                      >Marker-based Visual SLAM leveraging Hierarchical
-                      Representations,</b
-                    >”
-                    <i
-                      >Proceedings of the IEEE/RSJ International Conference on
-                      Intelligent Robots and Systems (IROS'23)</i
-                    >, Detroit, MI, USA, pp. 3461-3467 [<a
-                      href="https://doi.org/10.1109/IROS55552.2023.10341891"
-                      target="_blank"
-                      class="custom-btn"
-                      >DOI</a
-                    >
-                    -<a
-                      href="https://arxiv.org/abs/2303.01155"
-                      target="_blank"
-                      class="custom-btn"
-                      >ArXiv</a
-                    >]
-                  </li>
-                  <li>
-                    <u>A. Tourani</u>, H. Bavle, J. L. Sanchez-Lopez, R.
-                    Munoz-Salinas, and H. Voos, “<b
-                      >Hierarchical Visual SLAM based on Fiducial Markers,</b
-                    >”
-                    <i
-                      >International Conference on Robotics and Automation
-                      (ICRA'23) - Workshop on Active Methods in Autonomous
-                      Navigation, London, UK</i
-                    >
-                    [<a
-                      href="https://robotics.pme.duth.gr/workshop_active2/wp-content/uploads/2023/05/02.-Hierarchical-Visual-SLAM-based-on-Fiducial-Markers.pdf"
-                      target="_blank"
-                      class="custom-btn"
-                      >PDF</a
-                    >
-                    -
-                    <a
-                      href="https://arxiv.org/abs/2303.01155"
-                      target="_blank"
-                      class="custom-btn"
-                      >ArXiv</a
-                    >]
-                  </li>
-                </ul>
-                <h4>Peer-review Journals</h4>
-                <ul>
-                  <li>
-                    H. Bavle, J. L. Sanchez-Lopez, C. Cimarelli,
-                    <u>A. Tourani</u>, and H. Voos, “<b
-                      >From SLAM to Situational Awareness: Challenges and
-                      Survey,</b
-                    >” <i>Sensors</i>, vol. 23, no. 10, p. 4849 [<a
-                      href="https://doi.org/10.3390/s23104849"
-                      target="_blank"
-                      class="custom-btn"
-                      >DOI</a
-                    >
-                    -
-                    <a
-                      href="https://arxiv.org/abs/2110.00273"
-                      target="_blank"
-                      class="custom-btn"
-                      >ArXiv</a
-                    >
-                    - <span style="color: red">IF: 3.84 (Q1)</span>]
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Scientific Section -->
-      <section id="co-authors" class="services section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Top Co-Authors</h2>
-          <div class="team-wrap row mt-4" style="line-height: 1">
-            <div class="col-lg-2 col-md-4 team">
-              <img
-                src="https://snt-highlights.uni.lu/wp-content/uploads/sites/172/2022/02/Holger_Voos.jpg"
-                class="coauthor-img"
-                alt="Holger Voos"
-              />
-              <a
-                href="https://scholar.google.com/citations?user=T6Hf5e0AAAAJ&hl=en"
-                target="_blank"
-                ><h5>Prof. H. Voos</h5></a
-              >
-              <span>SnT, University of Luxembourg</span>
-            </div>
-            <div class="col-lg-2 col-md-4 team">
-              <img
-                src="https://i1.rgstatic.net/ii/profile.image/963155924615169-1606645675290_Q512/Jan-Lagerwall.jpg"
-                class="coauthor-img"
-                alt="Jan Lagerwall"
-              />
-              <a
-                href="https://scholar.google.com/citations?hl=en&user=ba_Bc-4AAAAJ"
-                target="_blank"
-                ><h5>Prof. J. Lagerwall</h5></a
-              >
-              <span>University of Luxembourg</span>
-            </div>
-            <div class="col-lg-2 col-md-4 team">
-              <img
-                src="https://yasdel.github.io/img/Yashar_Deldjoo.png"
-                class="coauthor-img"
-                alt="Yashar Deldjoo"
-              />
-              <a
-                href="https://scholar.google.com/citations?user=-C_x_hUAAAAJ&hl=en"
-                target="_blank"
-                ><h5>Prof. Y. Deldjoo</h5></a
-              >
-              <span>Polytechnic University of Bari</span>
-            </div>
-            <div class="col-lg-2 col-md-4 team">
-              <img
-                src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=tHTqblAAAAAJ&citpid=2"
-                class="coauthor-img"
-                alt="Rafael Muñoz Salinas"
-              />
-              <a
-                href="https://scholar.google.com/citations?user=tHTqblAAAAAJ&hl=en"
-                target="_blank"
-                ><h5>Prof. R. Munoz-Salinas</h5></a
-              >
-              <span>University of Cordoba</span>
-            </div>
-            <div class="col-lg-2 col-md-4 team">
-              <img
-                src="https://saiconference.com/CVC/Thumbnail/c3207a5a-e13b-49d6-9a5a-394b0ffec283"
-                class="coauthor-img"
-                alt="Asadollah Shahbahrami"
-              />
-              <a
-                href="https://scholar.google.com/citations?user=RbUZMnEAAAAJ&hl=en"
-                target="_blank"
-                ><h5>Prof. A. Shahbahrami</h5></a
-              >
-              <span>University of Guilan</span>
-            </div>
-            <div class="col-lg-2 col-md-4 team">
-              <img
-                src="https://www.concordia.ca/etc/designs/concordia/resources/file.8204.512.jpg"
-                class="coauthor-img"
-                alt="Ching Y. Suen"
-              />
-              <a
-                href="https://scholar.google.com/citations?user=vbFjxDgAAAAJ&hl=en"
-                target="_blank"
-                ><h5>Prof. C.Y. Suen</h5></a
-              >
-              <span>Concordia University</span>
-            </div>
-            <div class="col-lg-2 col-md-4 team">
-              <img
-                src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=QuzQdDwAAAAJ&citpid=3"
-                class="coauthor-img"
-                alt="Jose Luis Sanchez-Lopez"
-              />
-              <a
-                href="https://scholar.google.com/citations?user=QuzQdDwAAAAJ&hl=en"
-                target="_blank"
-                ><h5>Dr. J.L. Sanchez-Lopez</h5></a
-              >
-              <span>SnT, University of Luxembourg</span>
-            </div>
-            <div class="col-lg-2 col-md-4 team">
-              <img
-                src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=qnisbnUAAAAJ&citpid=14"
-                class="coauthor-img"
-                alt="Hriday Bavle"
-              />
-              <a
-                href="https://scholar.google.com/citations?user=qnisbnUAAAAJ&hl=en"
-                target="_blank"
-                ><h5>Dr. H. Bavle</h5></a
-              >
-              <span>GAMMA-AR</span>
-            </div>
-            <div class="col-lg-2 col-md-4 team">
-              <img
-                src="https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=zKbiZzwAAAAJ&citpid=1"
-                class="coauthor-img"
-                alt="Claudio Cimarelli"
-              />
-              <a
-                href="https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=zKbiZzwAAAAJ&citpid=1"
-                target="_blank"
-                ><h5>Dr. M. Fernandez-Cortizas</h5></a
-              >
-              <span>SnT, University of Luxembourg</span>
-            </div>
-            <div class="col-lg-2 col-md-4 team">
-              <img
-                src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=NrsZZPEAAAAJ&citpid=1"
-                class="coauthor-img"
-                alt="Claudio Cimarelli"
-              />
-              <a
-                href="https://scholar.google.com/citations?user=NrsZZPEAAAAJ&hl=en"
-                target="_blank"
-                ><h5>Dr. C. Cimarelli</h5></a
-              >
-              <span>Circuli-ion</span>
-            </div>
-            <div class="col-lg-2 col-md-4 team">
-              <img
-                src="https://i1.rgstatic.net/ii/profile.image/11431281186147517-1693832616140_Q512/Saeed-Khazaee.jpg"
-                class="coauthor-img"
-                alt="Saeed Khazaee"
-              />
-              <a
-                href="https://scholar.google.com/citations?user=OoB-hykAAAAJ&hl=en"
-                target="_blank"
-                ><h5>Dr. S. Khazaee</h5></a
-              >
-              <span>NexaDeeds</span>
-            </div>
-            <div class="col-lg-2 col-md-4 team">
-              <img
-                src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=WN__yVcAAAAJ&citpid=8"
-                class="coauthor-img"
-                alt="Alireza Akoushideh"
-              />
-              <a
-                href="https://scholar.google.com/citations?user=WN__yVcAAAAJ&hl=en"
-                target="_blank"
-                ><h5>Dr. A. Akoushideh</h5></a
-              >
-              <span>Technical and Vocational University</span>
-            </div>
-            <div class="col-lg-2 col-md-4 team">
-              <img
-                src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=MUnRX7sAAAAJ&citpid=2"
-                class="coauthor-img"
-                alt="Deniz Işinsu Avşar"
-              />
-              <a
-                href="https://scholar.google.com/citations?user=MUnRX7sAAAAJ&hl=en"
-                target="_blank"
-                ><h5>Dr. D. Avşar</h5></a
-              >
-              <span>University of Luxembourg</span>
-            </div>
-            <div class="col-lg-2 col-md-4 team">
-              <img
-                src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=1uzYEI0AAAAJ&citpid=6"
-                class="coauthor-img"
-                alt="Hossein A. Rahmani"
-              />
-              <a
-                href="https://scholar.google.com/citations?user=1uzYEI0AAAAJ&hl=en"
-                target="_blank"
-                ><h5>H.A. Rahmani</h5></a
-              >
-              <span>University College London</span>
-            </div>
-            <div class="col-lg-2 col-md-4 team">
-              <img
-                src="https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=nwahaSEAAAAJ&citpid=1"
-                class="coauthor-img"
-                alt="Mohammadmehdi Naghiaei"
-              />
-              <a
-                href="https://scholar.google.com/citations?user=x1m33ikAAAAJ&hl=en"
-                target="_blank"
-                ><h5>S. Ejaz</h5></a
-              >
-              <span>SnT, University of Luxembourg</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Scientific Section -->
-      <section id="review" class="services section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Review Activity</h2>
-          <p>
-            For the complete list, check my
-            <a
-              href="https://www.webofscience.com/wos/author/record/HNQ-0031-2023"
-              target="_blank"
-              >Web of Science</a
-            >
-            profile.
-          </p>
-        </div>
-        <!-- End Section Title -->
-
-        <div class="container">
-          <div class="row gy-4">
-            <div
-              class="col-lg-6 col-md-6 service-item d-flex"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <div class="icon flex-shrink-0">
-                <i class="bi bi-buildings"></i>
-              </div>
-              <div>
-                <h4 class="title">International Conferences</h4>
-                <ul>
-                  <li>
-                    International Conference on Unmanned Aircraft Systems (ICUAS'26) (<a
-                      href="https://uasconferences.com/2026_icuas/"
-                      target="_blank"
-                      class="custom-btn"
-                      >link</a
-                    >)
-                  </li>
-                  <li>
-                    ACM Web Conference (WWW'26) (<a
-                      href="https://www2026.thewebconf.org/index.html"
-                      target="_blank"
-                      class="custom-btn"
-                      >link</a
-                    >)
-                  </li>
-                </ul>
-                <ul>
-                  <li>
-                    IEEE InternSational Conference on Robots and Automation
-                    (ICRA'25) (<a
-                      href="https://2025.ieee-icra.org/"
-                      target="_blank"
-                      class="custom-btn"
-                      >link</a
-                    >)
-                  </li>
-                  <li>
-                    IEEE/RSJ International Conference on Intelligent Robots and
-                    Systems (IROS'25) (<a
-                      href="http://www.iros25.org/"
-                      target="_blank"
-                      class="custom-btn"
-                      >link</a
-                    >)
-                  </li>
-                </ul>
-                <ul>
-                  <li>
-                    IEEE InternSational Conference on Robots and Automation
-                    (ICRA'24) (<a
-                      href="https://2024.ieee-icra.org/"
-                      target="_blank"
-                      class="custom-btn"
-                      >link</a
-                    >)
-                  </li>
-                  <li>
-                    IEEE International Conference on Automation Science and
-                    Engineering (CASE'24) (<a
-                      href="https://2024.ieeecase.org/"
-                      target="_blank"
-                      class="custom-btn"
-                      >link</a
-                    >)
-                  </li>
-                  <li>
-                    ACM International Conference on Information and Knowledge
-                    Management (CIKM'24) (<a
-                      href="https://cikm2024.org/"
-                      target="_blank"
-                      class="custom-btn"
-                      >link</a
-                    >)
-                  </li>
-                </ul>
-                <ul>
-                  <li>
-                    IEEE/RSJ International Conference on Intelligent Robots and
-                    Systems (IROS'23) (<a
-                      href="https://ieee-iros.org/"
-                      target="_blank"
-                      class="custom-btn"
-                      >link</a
-                    >)
-                  </li>
-                  <li>
-                    ACM International Conference on Information and Knowledge
-                    Management (CIKM'23) (<a
-                      href="https://uobevents.eventsair.com/cikm2023/"
-                      target="_blank"
-                      class="custom-btn"
-                      >link</a
-                    >)
-                  </li>
-                  <li>
-                    International Conference on Computer Science and Application
-                    Engineering (CSAE'23) (<a
-                      href="http://www.csaeconf.org/"
-                      target="_blank"
-                      class="custom-btn"
-                      >link</a
-                    >)
-                  </li>
-                  <li>
-                    The Sixth Iberian Robotics Conference (ROBOT'23) (<a
-                      href="https://robot2023.isr.uc.pt/"
-                      target="_blank"
-                      class="custom-btn"
-                      >link</a
-                    >)
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <!-- End Service Item -->
-
-            <div
-              class="col-lg-6 col-md-6 service-item d-flex"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <div class="icon flex-shrink-0">
-                <i class="bi bi-journal-bookmark-fill"></i>
-              </div>
-              <div>
-                <h4 class="title">Peer-reviewed Journals</h4>
-                <ul>
-                  <li>
-                    RA-L (<a
-                      href="https://www.ieee-ras.org/publications/ra-l"
-                      target="_blank"
-                      class="custom-btn"
-                      >link</a
-                    >,
-                    <a
-                      href="https://www.scimagojr.com/journalsearch.php?q=21100900379&tip=sid"
-                      target="_blank"
-                      class="custom-btn"
-                      >stats</a
-                    >)
-                  </li>
-                  <li>
-                    PLOS ONE (<a
-                      href="https://journals.plos.org/plosone/"
-                      target="_blank"
-                      class="custom-btn"
-                      >link</a
-                    >,
-                    <a
-                      href="https://www.scimagojr.com/journalsearch.php?q=10600153309&tip=sid"
-                      target="_blank"
-                      class="custom-btn"
-                      >stats</a
-                    >)
-                  </li>
-                  <li>
-                    IEEE Access (<a
-                      href="https://ieeeaccess.ieee.org/"
-                      target="_blank"
-                      class="custom-btn"
-                      >link</a
-                    >,
-                    <a
-                      href="https://www.scimagojr.com/journalsearch.php?q=21100374601&tip=sid"
-                      target="_blank"
-                      class="custom-btn"
-                      >stats</a
-                    >)
-                  </li>
-                  <li>
-                    IEEE Sensors (<a
-                      href="https://ieee-sensors.org/ieee-sensors-journal/"
-                      target="_blank"
-                      class="custom-btn"
-                      >link</a
-                    >,
-                    <a
-                      href="https://www.scimagojr.com/journalsearch.php?q=15047&tip=sid"
-                      target="_blank"
-                      class="custom-btn"
-                      >stats</a
-                    >)
-                  </li>
-                  <li>
-                    MDPI Sensors (<a
-                      href="https://www.mdpi.com/journal/sensors"
-                      target="_blank"
-                      class="custom-btn"
-                      >link</a
-                    >,
-                    <a
-                      href="https://www.scimagojr.com/journalsearch.php?q=130124&tip=sid"
-                      target="_blank"
-                      class="custom-btn"
-                      >stats</a
-                    >)
-                  </li>
-                  <li>
-                    IET Image Processing (<a
-                      href="https://digital-library.theiet.org/content/journals/iet-ipr"
-                      target="_blank"
-                      class="custom-btn"
-                      >link</a
-                    >,
-                    <a
-                      href="https://www.scimagojr.com/journalsearch.php?q=5400152646&tip=sid"
-                      target="_blank"
-                      class="custom-btn"
-                      >stats</a
-                    >)
-                  </li>
-                  <li>
-                    ACM Computing Surveys (<a
-                      href="https://dl.acm.org/journal/csur"
-                      target="_blank"
-                      class="custom-btn"
-                      >link</a
-                    >,
-                    <a
-                      href="https://www.scimagojr.com/journalsearch.php?q=23038&tip=sid"
-                      target="_blank"
-                      class="custom-btn"
-                      >stats</a
-                    >)
-                  </li>
-                  <li>
-                    Journal of Field Robotics (<a
-                      href="https://onlinelibrary.wiley.com/journal/15564967"
-                      target="_blank"
-                      class="custom-btn"
-                      >link</a
-                    >,
-                    <a
-                      href="https://www.scimagojr.com/journalsearch.php?q=4700152301&tip=sid&clean=0"
-                      target="_blank"
-                      class="custom-btn"
-                      >stats</a
-                    >)
-                  </li>
-                  <li>
-                    Applied Artificial Intelligence (<a
-                      href="https://www.tandfonline.com/journals/uaai20"
-                      target="_blank"
-                      class="custom-btn"
-                      >link</a
-                    >,
-                    <a
-                      href="https://www.scimagojr.com/journalsearch.php?q=23673&tip=sid"
-                      target="_blank"
-                      class="custom-btn"
-                      >stats</a
-                    >)
-                  </li>
-                  <li>
-                    Expert Systems with Applications (<a
-                      href="https://www.sciencedirect.com/journal/expert-systems-with-applications"
-                      target="_blank"
-                      class="custom-btn"
-                      >link</a
-                    >,
-                    <a
-                      href="https://www.scimagojr.com/journalsearch.php?q=24201&tip=sid"
-                      target="_blank"
-                      class="custom-btn"
-                      >stats</a
-                    >)
-                  </li>
-                  <li>
-                    IEEE Trans. Industrial Informatics (<a
-                      href="https://www.ieee-ies.org/pubs/transactions-on-industrial-informatics"
-                      target="_blank"
-                      class="custom-btn"
-                      >link</a
-                    >,
-                    <a
-                      href="https://www.scimagojr.com/journalsearch.php?q=144912&tip=sid"
-                      target="_blank"
-                      class="custom-btn"
-                      >stats</a
-                    >)
-                  </li>
-                  <li>
-                    IEEE Trans. Computational Social Systems (<a
-                      href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6570650"
-                      target="_blank"
-                      class="custom-btn"
-                      >link</a
-                    >,
-                    <a
-                      href="https://www.scimagojr.com/journalsearch.php?q=21100364916&tip=sid&clean=0"
-                      target="_blank"
-                      class="custom-btn"
-                      >stats</a
-                    >)
-                  </li>
-                  <li>
-                    IEEE Trans. Intelligent Transportation Systems (<a
-                      href="https://ieee-itss.org/pub/t-its/"
-                      target="_blank"
-                      class="custom-btn"
-                      >link</a
-                    >,
-                    <a
-                      href="https://www.scimagojr.com/journalsearch.php?q=18378&tip=sid"
-                      target="_blank"
-                      class="custom-btn"
-                      >stats</a
-                    >)
-                  </li>
-                  <li>
-                    Journal of Photogrammetry and Remote Sensing (<a
-                      href="https://www.sciencedirect.com/journal/isprs-journal-of-photogrammetry-and-remote-sensing"
-                      target="_blank"
-                      class="custom-btn"
-                      >link</a
-                    >,
-                    <a
-                      href="https://www.scimagojr.com/journalsearch.php?q=29161&tip=sid"
-                      target="_blank"
-                      class="custom-btn"
-                      >stats</a
-                    >)
-                  </li>
-                  <li>
-                    IEEE Trans. Automation Science and Engineering (<a
-                      href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8856"
-                      target="_blank"
-                      class="custom-btn"
-                      >link</a
-                    >,
-                    <a
-                      href="https://www.scimagojr.com/journalsearch.php?q=17340&tip=sid&clean=0"
-                      target="_blank"
-                      class="custom-btn"
-                      >stats</a
-                    >)
-                  </li>
-                  <li>
-                    IEEE Trans. Circuits and Systems for Video Technology (<a
-                      href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76"
-                      target="_blank"
-                      class="custom-btn"
-                      >link</a
-                    >,
-                    <a
-                      href="https://www.scimagojr.com/journalsearch.php?q=26027&tip=sid"
-                      target="_blank"
-                      class="custom-btn"
-                      >stats</a
-                    >)
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <!-- End Service Item -->
-          </div>
-        </div>
-      </section>
-      <!-- /Services Section -->
-
-      <!-- Services Section -->
-      <section id="materials" class="services section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Contents and Materials</h2>
-        </div>
-        <!-- End Section Title -->
-
-        <div class="container">
-          <div class="row gy-4">
-            <div
-              class="col-lg-6 col-md-6 service-item d-flex"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <div class="icon flex-shrink-0">
-                <i class="bi bi-briefcase"></i>
-              </div>
-              <div>
-                <h4 class="title">
-                  <a href="pages/materials-lectures.html" class="stretched-link"
-                    >University Lecture Materials</a
-                  >
-                </h4>
-                <p class="description">
-                  Course materials, presentations, and videos for the courses
-                  lectured for undergraduate students
-                </p>
-              </div>
-            </div>
-            <!-- End Service Item -->
-
-            <div
-              class="col-lg-6 col-md-6 service-item d-flex"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <div class="icon flex-shrink-0">
-                <i class="bi bi-card-checklist"></i>
-              </div>
-              <div>
-                <h4 class="title">
-                  <a href="pages/materials-talks.html" class="stretched-link"
-                    >Talks, Articles, and Presentations</a
-                  >
-                </h4>
-                <p class="description">
-                  Talks, articles, invited lectures, and presentations in
-                  various events
-                </p>
-              </div>
-            </div>
-            <!-- End Service Item -->
-          </div>
-        </div>
-      </section>
-      <!-- /Services Section -->
-
-      <!-- What's New (Blog) Section -->
-      <section id="blog" class="testimonials section light-background">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Blog - What's New?</h2>
-          <span class="subheading"
-            >Check my
-            <b>
-              <a href="./pages/blog.html" target="_blank"
-                >Blog <i class="bi bi-link"></i
-              ></a>
-            </b>
-            for the complete list of the recent updates.
-          </span>
-        </div>
-        <!-- End Section Title -->
-
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper init-swiper">
-            <script type="application/json" class="swiper-config">
-              {
-                "loop": true,
-                "speed": 1000,
-                "autoplay": {
-                  "delay": 5000
-                },
-                "slidesPerView": "auto",
-                "pagination": {
-                  "el": ".swiper-pagination",
-                  "type": "bullets",
-                  "clickable": true
-                },
-                "breakpoints": {
-                  "320": {
-                    "slidesPerView": 1,
-                    "spaceBetween": 40
-                  },
-                  "1200": {
-                    "slidesPerView": 3,
-                    "spaceBetween": 1
-                  }
-                }
-              }
-            </script>
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span
-                      >🏆 Thrilled to share that I successfully defended my PhD thesis and my thesis has been
-                nominated for the Best Dissertation Award at the University of
-                Luxembourg.
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                  <img
-                    src="assets/img/alitourani_cm.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Ph.D. Thesis Defense</h3>
-                  <h4>March 21, 2026 at 14:00</h4>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span
-                      >Excited to share that our paper on Visual RAG got
-                      accepted in
-                      <a href="https://dl.acm.org/journal/tors" target="_blank"
-                        >ACM Transactions on Recommender Systems (TORS)</a
-                      >. Check the pre-print version of the paper
-                      <a
-                        href="https://doi.org/10.48550/arXiv.2506.20817"
-                        target="_blank"
-                        >here</a
-                      >.</span
-                    >
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                  <img
-                    src="assets/img/alitourani_cm.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Paper Acceptance in "ACM TORS"</h3>
-                  <h4>March 01, 2026 at 10:00</h4>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span
-                      >Happy to announce that our paper on Situationally-aware
-                      Path Planning got accepted in
-                      <a
-                        href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7083369"
-                        target="_blank"
-                        >IEEE RA-L</a
-                      >. Check the pre-print version of the paper
-                      <a href="https://arxiv.org/abs/2508.06283" target="_blank"
-                        >here</a
-                      >.</span
-                    >
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                  <img
-                    src="assets/img/alitourani_cm.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Paper Acceptance in "RA-L"</h3>
-                  <h4>January 06, 2026 at 09:00</h4>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span
-                      >Happy to share that our multi-modal data acquisition
-                      platform paper got accepted in
-                      <a
-                        href="https://link.springer.com/journal/10846"
-                        target="_blank"
-                        >Springer JINT</a
-                      >. Check the pre-print version of the paper
-                      <a href="https://arxiv.org/abs/2509.09509" target="_blank"
-                        >here</a
-                      >.</span
-                    >
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                  <img
-                    src="assets/img/alitourani_cm.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Paper Acceptance in "JINT"</h3>
-                  <h4>January 03, 2026 at 10:30</h4>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span
-                      >Happy to share that our paper on LLM-based robot control
-                      got accepted for publication in
-                      <a href="https://ieeeaccess.ieee.org/" target="_blank"
-                        >IEEE Access</a
-                      >. Check the content of the paper
-                      <a
-                        href="https://doi.org/10.1109/ACCESS.2025.3635471"
-                        target="_blank"
-                        >here</a
-                      >.</span
-                    >
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                  <img
-                    src="assets/img/alitourani_cm.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Paper Acceptance in "IEEE Access"</h3>
-                  <h4>November 22, 2025 at 11:30</h4>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span
-                      >Check out my new Medium article, "Boost Your Research
-                      Visibility: Preprints before Submissions," now live!
-                      There, I discuss the importance of preprints in academic
-                      careers. Read it
-                      <a
-                        href="https://medium.com/@alitourani/boost-your-research-visibility-preprints-before-submissions-22b8515446e9"
-                        target="_blank"
-                        >here</a
-                      >.</span
-                    >
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                  <img
-                    src="assets/img/alitourani_cm.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Medium Article on "Preprints"</h3>
-                  <h4>April 06, 2025 at 01:30</h4>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span
-                      >Happy to share that our paper has been accepted in
-                      <a
-                        href="https://tum-avs.github.io/IROS24_Workshop/"
-                        target="_blank"
-                        >14th Workshop on Planning, Perception and Navigation
-                        for Intelligent Vehicles</a
-                      >
-                      in
-                      <a href="https://iros2024-abudhabi.org/" target="_blank"
-                        >IROS'24</a
-                      >
-                      (<a
-                        href="https://arxiv.org/abs/2409.06625"
-                        target="_blank"
-                        >pre-print</a
-                      >)!</span
-                    >
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                  <img
-                    src="assets/img/alitourani_cm.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Paper Acceptance in "IROS'24"!</h3>
-                  <h4>October 07, 2024 at 12:30</h4>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span
-                      >I am excited to share that our paper titled "Vision-Based
-                      Situational Graphs Exploiting Fiducial Markers for the
-                      Integration of Semantic Entities" is publicly available in
-                      <a
-                        href="https://www.mdpi.com/journal/robotics"
-                        target="_blank"
-                        >Robotics</a
-                      >
-                      (<a
-                        href="https://www.mdpi.com/2218-6581/13/7/106"
-                        target="_blank"
-                        >DOI</a
-                      >)!</span
-                    >
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                  <img
-                    src="assets/img/alitourani_cm.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Paper Publication in "Robotics"!</h3>
-                  <h4>July 16, 2024 at 10:30</h4>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    <span
-                      >🏆 I am thrilled to share that our survey paper has been
-                      selected as an "Editor's Choice Article" in
-                      <a
-                        href="https://www.mdpi.com/journal/sensors"
-                        target="_blank"
-                        >MDPI Sensors</a
-                      >
-                      journal (<a
-                        href="https://www.linkedin.com/feed/update/urn:li:activity:7214215257387380736/"
-                        target="_blank"
-                        >annoucement</a
-                      >,
-                      <a
-                        href="https://www.mdpi.com/1424-8220/22/23/9297"
-                        target="_blank"
-                        >link to the paper</a
-                      >)!</span
-                    >
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                  <img
-                    src="assets/img/alitourani_cm.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Editor's Choice Article in "MDPI Sensors"!</h3>
-                  <h4>July 05, 2024 at 11:30</h4>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-pagination"></div>
-          </div>
-        </div>
-      </section>
-      <!-- /Testimonials Section -->
-
-      <!-- Contact Section -->
-      <section id="contact" class="contact section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Contact Me</h2>
-          <p>
-            Feel free to reach out through email or
-            <a href="./index.html#home"
-              >find me on the Web <i class="bi bi-link"></i></a
-            >! 🤝
-          </p>
-        </div>
-        <!-- End Section Title -->
-
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <div class="row gy-4">
-            <div class="col-lg-5">
-              <div class="info-wrap">
-                <div
-                  class="info-item d-flex"
-                  data-aos="fade-up"
-                  data-aos-delay="200"
-                >
-                  <i class="bi bi-geo-alt flex-shrink-0"></i>
-                  <div>
-                    <h3>Address</h3>
-                    <p>29 boulevard JFK, L-1855 Luxembourg</p>
-                    <p>Block E, E00 006</p>
-                  </div>
-                </div>
-                <!-- End Info Item -->
-
-                <div
-                  class="info-item d-flex"
-                  data-aos="fade-up"
-                  data-aos-delay="400"
-                >
-                  <i class="bi bi-envelope flex-shrink-0"></i>
-                  <div>
-                    <h3>Email</h3>
-                    <p>ali [dot] tourani [at] uni [dot] lu</p>
-                    <p>atourani [at] acm [dot] org</p>
-                    <!-- <p>a [dot] tourani1991 [at] gmail [at] com</p> -->
-                  </div>
-                </div>
-                <!-- End Info Item -->
-              </div>
-            </div>
-
-            <div class="col-lg-7">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20678.84387429273!2d6.162117899999999!3d49.619329099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47954f43994007d1%3A0xe37ee7b8b9febfaf!2sInterdisciplinary%20Centre%20for%20Security%2C%20Reliability%20and%20Trust%20(SnT)!5e0!3m2!1sen!2slu!4v1724702774389!5m2!1sen!2slu"
-                frameborder="0"
-                style="border: 0; width: 100%; height: 100%"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </div>
-            <!-- End Contact Form -->
-          </div>
-        </div>
-      </section>
-      <!-- /Contact Section -->
-    </main>
-
-    <footer id="footer" class="footer position-relative light-background">
-      <div class="container">
-        <div class="copyright text-center">
-          <p>
-            © <span>Copyright</span>
-            <strong class="px-1 sitename">2021-2025</strong> |
-            <span>All Rights Reserved</span> |
-            <span
-              >Website by
-              <a href="https://bootstrapmade.com/" target="_blank"
-                >BootstrapMade</a
-              ></span
-            >
-          </p>
-        </div>
-      </div>
-    </footer>
-
-    <!-- Scroll Top -->
-    <a
-      href="#"
-      id="scroll-top"
-      class="scroll-top d-flex align-items-center justify-content-center"
-      ><i class="bi bi-arrow-up-short"></i
-    ></a>
-
+  <body>
     <!-- Preloader -->
-    <div id="preloader"></div>
+    <div class="preloader">
+      <div class="loader"></div>
+    </div>
+    <!-- Preloader End -->
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/typed.js/typed.umd.js"></script>
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <!-- Main Container -->
+    <div class="main-container">
+      <!-- Aside -->
+      <div class="aside">
+        <!-- Nav Toggler Btn -->
+        <div class="nav-toggler">
+          <span></span>
+        </div>
+        <div class="aside-inner">
+          <!-- Logo -->
+          <div class="logo">
+            <a href="index.html">Ali TOURANI</a>
+          </div>
+          <!-- Nav -->
+          <ul class="nav">
+            <li>
+              <a href="#home" class="active"><i class="fa fa-home"></i> Home</a>
+            </li>
+            <!-- <li>
+              <a href="#about"><i class="fa fa-user"></i> About</a>
+            </li>
+            <li>
+              <a href="#materials"><i class="fa fa-list"></i> Materials</a>
+            </li>
+            <li>
+              <a href="#projects"><i class="fa fa-briefcase"></i> Projects</a>
+            </li>
+            <li>
+              <a href="#blog"><i class="fa fa-envelope"></i> Blog</a>
+            </li>
+            <li>
+              <a href="#contact"><i class="fa fa-comments"></i> Contact</a>
+            </li> -->
+          </ul>
+          <!-- Copyright -->
+          <div class="copyright-text">&copy; 2026 WebShala Template</div>
+        </div>
+      </div>
+      <!-- Aside End -->
+      <!-- Main Content -->
+      <div class="main-content">
+        <!-- Home Section -->
+        <section class="home section active" id="home">
+          <div class="container">
+            <div class="intro">
+              <img src="images/ali_tourani.jpg" alt="Ali-Tourani-Profile" class="shadow-dark" />
+              <h1>Dr. Ali Tourani</h1>
+              <span class="iTyped"></span>
+              <div class="social-links">
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Home Section End -->
 
-    <!-- Main JS File -->
-    <script src="assets/js/main.js"></script>
+        <!-- About Section -->
+        <section class="about section" id="about">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>About Me</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="about-content padd-15">
+                <div class="row">
+                  <div class="about-text padd-15">
+                    <h3>I'm Upvesh Kumar and <span>Web Developer</span></h3>
+                    <p>
+                      Hi! My name is Upvesh Kumar. I am a Web Developer, and I'm
+                      very passionate and dedicated to my work. With 10 years
+                      experience as a professional Web developer, I have
+                      acquired the skills and knowledge necessary to make your
+                      project a success. I enjoy every step of the design
+                      process, from discussion and collaboration.
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="personal-info padd-15">
+                    <div class="row">
+                      <div class="info-item padd-15">
+                        <p>Birthday : <span>5 June 1992</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Age : <span>28</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Website : <span>www.domain.com</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Email : <span>info@gmail.com</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Degree : <span>M.Tech</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Phone : <span>+91 8800 000 000</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>City : <span>Mumbai</span></p>
+                      </div>
+                      <div class="info-item padd-15">
+                        <p>Freelance : <span>Available</span></p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="buttons padd-15">
+                        <a href="#" class="btn">Download Cv</a>
+                        <a
+                          href="#contact"
+                          data-section-index="1"
+                          class="btn hire-me"
+                          >Hire me</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skills padd-15">
+                    <div class="row">
+                      <div class="skill-item padd-15">
+                        <h5>Javascript</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 76%"></div>
+                          <div class="skill-porcent">76%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>Wordpress</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 90%"></div>
+                          <div class="skill-porcent">90%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>Java</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 80%"></div>
+                          <div class="skill-porcent">80%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>Bootstrap</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 60%"></div>
+                          <div class="skill-porcent">60%</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="education padd-15">
+                    <h3 class="title">Education</h3>
+                    <div class="row">
+                      <div class="timeline-box padd-15">
+                        <div class="timeline shadow-dark">
+                          <!-- timeline Item -->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h6 class="timeline-date">
+                              <i class="fa fa-calendar"></i> 2013 - 2015
+                            </h6>
+                            <h4 class="timeline-title">
+                              Master In Computer Science
+                            </h4>
+                            <p class="timeline-text">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing
+                              elit. Quisque scelerisque diam non nisi semper, et
+                              elementum lorem ornare.
+                            </p>
+                          </div>
+                          <!-- timeline Item End -->
+                          <!-- timeline Item -->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h6 class="timeline-date">
+                              <i class="fa fa-calendar"></i> 2011 - 2013
+                            </h6>
+                            <h4 class="timeline-title">
+                              Studied At Delhi University
+                            </h4>
+                            <p class="timeline-text">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing
+                              elit. Quisque scelerisque diam non nisi semper, et
+                              elementum lorem ornare.
+                            </p>
+                          </div>
+                          <!-- timeline Item End -->
+                          <!-- timeline Item -->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h6 class="timeline-date">
+                              <i class="fa fa-calendar"></i> 2008 - 2011
+                            </h6>
+                            <h4 class="timeline-title">Bachelor Degree</h4>
+                            <p class="timeline-text">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing
+                              elit. Quisque scelerisque diam non nisi semper, et
+                              elementum lorem ornare.
+                            </p>
+                          </div>
+                          <!-- timeline Item End -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="experience padd-15">
+                    <h3 class="title">Experience</h3>
+                    <div class="row">
+                      <div class="timeline-box padd-15">
+                        <div class="timeline shadow-dark">
+                          <!-- timeline Item -->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h6 class="timeline-date">
+                              <i class="fa fa-calendar"></i> 2013 - 2015
+                            </h6>
+                            <h4 class="timeline-title">Backend Developer</h4>
+                            <p class="timeline-text">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing
+                              elit. Quisque scelerisque diam non nisi semper, et
+                              elementum lorem ornare.
+                            </p>
+                          </div>
+                          <!-- timeline Item End -->
+                          <!-- timeline Item -->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h6 class="timeline-date">
+                              <i class="fa fa-calendar"></i> 2011 - 2013
+                            </h6>
+                            <h4 class="timeline-title">Frontend Developer</h4>
+                            <p class="timeline-text">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing
+                              elit. Quisque scelerisque diam non nisi semper, et
+                              elementum lorem ornare.
+                            </p>
+                          </div>
+                          <!-- timeline Item End -->
+                          <!-- timeline Item -->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h6 class="timeline-date">
+                              <i class="fa fa-calendar"></i> 2008 - 2011
+                            </h6>
+                            <h4 class="timeline-title">Graphic Designer</h4>
+                            <p class="timeline-text">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing
+                              elit. Quisque scelerisque diam non nisi semper, et
+                              elementum lorem ornare.
+                            </p>
+                          </div>
+                          <!-- timeline Item End -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- About Section End -->
+
+        <!-- Service Section -->
+        <section class="service section" id="materials">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Materials</h2>
+              </div>
+            </div>
+            <div class="row">
+              <!-- Service item -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon"><i class="fa fa-laptop"></i></div>
+                  <h4>Web Design</h4>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry Lorem Ipsum.
+                  </p>
+                </div>
+              </div>
+              <!-- Service item End -->
+              <!-- Service item -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon"><i class="fa fa-photo"></i></div>
+                  <h4>Photography</h4>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry Lorem Ipsum.
+                  </p>
+                </div>
+              </div>
+              <!-- Service item End -->
+              <!-- Service item -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon"><i class="fa fa-code"></i></div>
+                  <h4>Web Development</h4>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry Lorem Ipsum.
+                  </p>
+                </div>
+              </div>
+              <!-- Service item End -->
+              <!-- Service item -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon"><i class="fa fa-film"></i></div>
+                  <h4>Video Editing</h4>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry Lorem Ipsum.
+                  </p>
+                </div>
+              </div>
+              <!-- Service item End -->
+              <!-- Service item -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon"><i class="fa fa-rocket"></i></div>
+                  <h4>Seo Optimization</h4>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry Lorem Ipsum.
+                  </p>
+                </div>
+              </div>
+              <!-- Service Item End -->
+              <!-- Service Item -->
+              <div class="service-item padd-15">
+                <div class="service-item-inner">
+                  <div class="icon"><i class="fa fa-paint-brush"></i></div>
+                  <h4>Logo Design</h4>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry Lorem Ipsum.
+                  </p>
+                </div>
+              </div>
+              <!-- Service item End -->
+            </div>
+          </div>
+        </section>
+        <!-- Service Section End -->
+
+        <!-- Projects Section -->
+        <section class="portfolio section" id="projects">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Projects</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="portfolio-filter padd-15">
+                <button type="button" class="active" data-filter="all">
+                  All
+                </button>
+                <button type="button" data-filter="web-design">
+                  Web Design
+                </button>
+                <button type="button" data-filter="photography">
+                  Photography
+                </button>
+                <button type="button" data-filter="wordpress">Wordpress</button>
+              </div>
+            </div>
+            <div class="row">
+              <!-- Portfolio Item -->
+              <div class="portfolio-item padd-15" data-category="web-design">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="images/portfolio/1.jpg" alt="Web Design" />
+                  </div>
+                  <div class="portfolio-info">
+                    <h4>Web Design</h4>
+                    <div class="icon">
+                      <i class="fa fa-search"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Portfolio Item End -->
+              <!-- Portfolio Item -->
+              <div class="portfolio-item padd-15" data-category="photography">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="images/portfolio/2.jpg" alt="Photography" />
+                  </div>
+                  <div class="portfolio-info">
+                    <h4>Photography</h4>
+                    <div class="icon">
+                      <i class="fa fa-search"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Portfolio Item End -->
+              <!-- Portfolio Item -->
+              <div class="portfolio-item padd-15" data-category="wordpress">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="images/portfolio/3.jpg" alt="Wordpress" />
+                  </div>
+                  <div class="portfolio-info">
+                    <h4>Wordpress</h4>
+                    <div class="icon">
+                      <i class="fa fa-search"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Portfolio Item End -->
+              <!-- Portfolio Item -->
+              <div class="portfolio-item padd-15" data-category="web-design">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="images/portfolio/4.jpg" alt="portfolio" />
+                  </div>
+                  <div class="portfolio-info">
+                    <h4>Web Design</h4>
+                    <div class="icon">
+                      <i class="fa fa-search"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Portfolio Item End -->
+              <!-- Portfolio Item -->
+              <div class="portfolio-item padd-15" data-category="wordpress">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="images/portfolio/5.jpg" alt="Wordpress" />
+                  </div>
+                  <div class="portfolio-info">
+                    <h4>Wordpress</h4>
+                    <div class="icon">
+                      <i class="fa fa-search"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Portfolio Item End -->
+              <!-- Portfolio Item -->
+              <div class="portfolio-item padd-15" data-category="photography">
+                <div class="portfolio-item-inner shadow-dark">
+                  <div class="portfolio-img">
+                    <img src="images/portfolio/6.jpg" alt="Wordpress" />
+                  </div>
+                  <div class="portfolio-info">
+                    <h4>Photography</h4>
+                    <div class="icon">
+                      <i class="fa fa-search"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Portfolio Item End -->
+            </div>
+          </div>
+        </section>
+        <!-- Portfolio Section End -->
+
+        <!-- Blog Section -->
+        <section class="blog section" id="blog">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Latest Blog</h2>
+              </div>
+            </div>
+            <div class="row">
+              <!-- Blog Item -->
+              <div class="blog-item padd-15">
+                <div class="blog-item-inner shadow-dark">
+                  <div class="blog-img">
+                    <img src="images/blog/1.jpg" alt="" />
+                    <div class="blog-date">4 jun 2020</div>
+                  </div>
+                  <div class="blog-info">
+                    <h4 class="blog-title">Responsive Web Design</h4>
+                    <p class="blog-description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Dolore, porro rem quod illo quam, eum alias id,
+                      repellendus magni, quas.
+                    </p>
+                    <p class="blog-tags">
+                      Tags : <a href="#">Html</a> , <a href="#">css</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Blog Item End -->
+              <!-- Blog Item -->
+              <div class="blog-item padd-15">
+                <div class="blog-item-inner shadow-dark">
+                  <div class="blog-img">
+                    <img src="images/blog/2.jpg" alt="" />
+                    <div class="blog-date">4 jun 2020</div>
+                  </div>
+                  <div class="blog-info">
+                    <h4 class="blog-title">Creative Slideshow</h4>
+                    <p class="blog-description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Dolore, porro rem quod illo quam, eum alias id,
+                      repellendus magni, quas.
+                    </p>
+                    <p class="blog-tags">
+                      Tags : <a href="#">Html</a> , <a href="#">Javascript</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Blog Item End -->
+              <!-- Blog Item -->
+              <div class="blog-item padd-15">
+                <div class="blog-item-inner shadow-dark">
+                  <div class="blog-img">
+                    <img src="images/blog/3.jpg" alt="" />
+                    <div class="blog-date">4 jun 2020</div>
+                  </div>
+                  <div class="blog-info">
+                    <h4 class="blog-title">Image Gallery Lightbox</h4>
+                    <p class="blog-description">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Dolore, porro rem quod illo quam, eum alias id,
+                      repellendus magni, quas.
+                    </p>
+                    <p class="blog-tags">Tags : <a href="#">Javascript</a></p>
+                  </div>
+                </div>
+              </div>
+              <!-- Blog Item End -->
+            </div>
+          </div>
+        </section>
+        <!-- Blog Section End -->
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>Contact Me</h2>
+              </div>
+            </div>
+            <div class="row">
+              <!-- contact-info-item  -->
+              <div class="contact-info-item padd-15">
+                <div class="icon">
+                  <i class="fa fa-phone"></i>
+                  <h4>Call Us On</h4>
+                  <p>+91 8800 000 000</p>
+                </div>
+              </div>
+              <!-- contact-info-item end -->
+              <!-- contact-info-item  -->
+              <div class="contact-info-item padd-15">
+                <div class="icon">
+                  <i class="fa fa-map-marker"></i>
+                  <h4>Office</h4>
+                  <p>44 Street, New Delhi, India</p>
+                </div>
+              </div>
+              <!-- contact-info-item end -->
+              <!-- contact-info-item  -->
+              <div class="contact-info-item padd-15">
+                <div class="icon">
+                  <i class="fa fa-envelope"></i>
+                  <h4>Email</h4>
+                  <p>info@gmail.com</p>
+                </div>
+              </div>
+              <!-- contact-info-item end -->
+            </div>
+
+            <!-- Contact Form -->
+            <div class="row">
+              <form action="#" class="contact-form padd-15">
+                <div class="row">
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        name=""
+                        class="form-control"
+                        placeholder="Name*"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-item col-6 padd-15">
+                    <div class="form-group">
+                      <input
+                        type="email"
+                        name=""
+                        class="form-control"
+                        placeholder="Email*"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        name=""
+                        class="form-control"
+                        placeholder="Subject*"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="form-item col-12 padd-15">
+                    <div class="form-group">
+                      <textarea
+                        class="form-control"
+                        name=""
+                        placeholder="Your Message..."
+                      ></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 padd-15">
+                    <button type="submit" class="btn">Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!-- Contact Form End -->
+          </div>
+        </section>
+        <!-- Contact Section End -->
+      </div>
+      <!-- Main Content End -->
+    </div>
+    <!-- Main Container End -->
+
+    <!-- Lightbox -->
+    <div class="lightbox">
+      <div class="lightbox-content">
+        <div class="lightbox-close">&times;</div>
+        <img src="" alt="" onclick="nextItem()" class="lightbox-img" />
+        <div class="lightbox-caption">
+          <div class="caption-text"></div>
+          <div class="caption-counter"></div>
+        </div>
+      </div>
+      <div class="lightbox-controls">
+        <div class="prev-item" onclick="prevItem()">
+          <i class="fa fa-angle-left"></i>
+        </div>
+        <div class="next-item" onclick="nextItem()">
+          <i class="fa fa-angle-right"></i>
+        </div>
+      </div>
+    </div>
+    <!-- Lightbox End -->
+
+    <!-- Live Style Switcher - Demo Only -->
+    <!-- <div class="style-switcher">
+      <div class="toggle-style-switcher">
+        <i class="fa fa-cog fa-spin"></i>
+      </div>
+      <h5>Style Switcher</h5>
+      <ul>
+        <li>
+          <a
+            href="javascript:void(0);"
+            title="pink"
+            style="background-color: #ec1839"
+            onclick="setActiveStyle('pink')"
+          ></a>
+        </li>
+        <li>
+          <a
+            href="javascript:void(0);"
+            title="blue"
+            style="background-color: #2196f3"
+            onclick="setActiveStyle('blue')"
+          ></a>
+        </li>
+        <li>
+          <a
+            href="javascript:void(0);"
+            title="orange"
+            style="background-color: #fa5b0f"
+            onclick="setActiveStyle('orange')"
+          ></a>
+        </li>
+        <li>
+          <a
+            href="javascript:void(0);"
+            title="yellow"
+            style="background-color: #ffb400"
+            onclick="setActiveStyle('yellow')"
+          ></a>
+        </li>
+        <li>
+          <a
+            href="javascript:void(0);"
+            title="green"
+            style="background-color: #72b626"
+            onclick="setActiveStyle('green')"
+          ></a>
+        </li>
+      </ul>
+      <h5>Body Skin</h5>
+      <label>
+        <input
+          type="radio"
+          class="body-skin"
+          name="body-skin"
+          value="light"
+          checked="true"
+        />
+        Light
+      </label>
+      <label>
+        <input type="radio" class="body-skin" name="body-skin" value="dark" />
+        Dark
+      </label>
+    </div> -->
+    <!-- Live Style Switcher - Demo Only End -->
+
+    <!-- Plugins -->
+    <script src="js/ityped.min.js"></script>
+    <!-- Template js -->
+    <script src="js/script.js"></script>
+    <!-- Live Style Js - Demo Only -->
+    <script src="js/styleSwitcher.js"></script>
   </body>
 </html>
