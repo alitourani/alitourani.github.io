@@ -1,6 +1,5 @@
 
 // Preloader
-
 window.addEventListener('load', function(){
     document.querySelector('.preloader').classList.add('opacity-0');
     setTimeout(function(){
@@ -9,14 +8,12 @@ window.addEventListener('load', function(){
 });
 
 // iTyped 
-
 window.ityped.init(document.querySelector('.iTyped'), {
-    strings: ["Postdoctoral Researcher", 'Senior Software Developer', 'R&D Specialist', 'Computer Scientist'],
+    strings: ['R&D Specialist', 'Computer Scientist', 'Senior Software Developer', 'Postdoctoral Researcher'],
     loop: true
 });
 
 // Portfolio Item Filter
-
 const filterContainer = document.querySelector('.portfolio-filter'),
     filterBtns = filterContainer.children,
     totalFilterBtn = filterBtns.length,
@@ -45,8 +42,7 @@ const filterContainer = document.querySelector('.portfolio-filter'),
         });
     }
 
-// Portfolio Lighbox
-
+// Portfolio Lightbox
 const lightbox = document.querySelector('.lightbox'),
     lightboxImg = lightbox.querySelector('.lightbox-img'),
     lightboxText = lightbox.querySelector('.caption-text'),
@@ -92,8 +88,7 @@ function nextItem() {
     changeItem();
 }
 
-// close lightbox
-
+// Close lightbox
 lightbox.addEventListener('click', function(event){
     if(event.target === lightboxClose || event.target === lightbox){
         toggleLightbox();
@@ -101,7 +96,6 @@ lightbox.addEventListener('click', function(event){
 });
 
 // Aside Navbar
-
 const nav = document.querySelector('.nav'),
     navList = nav.querySelectorAll('li'),
     totalNavList = navList.length,
