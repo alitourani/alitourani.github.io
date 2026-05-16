@@ -655,6 +655,12 @@ select {
     margin-top: 30px;
 }
 
+.about .about-content .experience-full {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
 .about .about-content h3.title {
     font-size: 24px;
     margin-bottom: 30px;
@@ -723,6 +729,13 @@ select {
     margin-bottom: 15px;
     text-transform: capitalize;
     color: #302e4d;
+}
+
+.about .about-content .timeline .timeline-subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    color: #504e70;
+    margin-bottom: 15px;
 }
 
 .about .about-content .timeline .timeline-text {
