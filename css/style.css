@@ -167,6 +167,15 @@ select {
     margin-top: 8px;
 }
 
+.section-title h3 {
+    font-size: 25px;
+    color: #302e4d;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    position: relative;
+}
+
 .row {
     display: -ms-flexbox;
     display: flex;
@@ -588,6 +597,42 @@ select {
 .about .about-content .personal-info .buttons .btn {
     margin-right: 15px;
     margin-top: 10px;
+}
+
+.about .about-content .review {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-top: 20px;
+}
+
+.about .about-content .review .review-item {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.about .about-content .review .review-item h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #302e4d;
+}
+
+.about .about-content .review .review-item p {
+    font-weight: 600;
+    padding: 10px 0;
+    font-size: 16px;
+    margin: 10 0;
+    color: #302e4d;
+    border-bottom: 1px solid #e8dfec;
+}
+
+.about .about-content .review .review-item p span {
+    font-weight: 400;
+    color: #504e70;
+    margin-left: 4px;
+    display: inline-block;
 }
 
 .about .about-content .skills {

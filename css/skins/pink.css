@@ -20,6 +20,7 @@ body.dark .aside .nav li a:hover,
 body.dark .portfolio .portfolio-filter button.active,
 .service .service-item .service-item-inner .icon .fa,
 body.dark .aside .nav li a.active,
+body.dark .about .about-content .review .review-item h3,
 .aside .nav li a.active{
     color: #ec1839;
 }
