@@ -635,6 +635,17 @@ select {
     display: inline-block;
 }
 
+.about .about-content .review .buttons {
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.about .about-content .review .buttons .btn {
+    margin-right: 5px;
+    margin-top: 5px;
+    padding: 5px 15px;
+}
+
 .about .about-content .skills {
     -ms-flex: 0 0 40%;
     flex: 0 0 40%;
