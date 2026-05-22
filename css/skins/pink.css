@@ -43,3 +43,7 @@ body.dark .about .about-content .review .review-item h3,
 .portfolio .portfolio-filter button.active{
     border-color: #ec1839;
 }
+
+body.dark .about .about-content .review .review-item p span u {
+    color: #FFD900;
+}

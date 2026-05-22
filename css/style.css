@@ -635,6 +635,10 @@ select {
     display: inline-block;
 }
 
+.about .about-content .review .review-item p span u {
+    font-weight: 600;
+}
+
 .about .about-content .review .buttons {
     font-size: 10px;
     font-weight: 300;
