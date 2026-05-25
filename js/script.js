@@ -54,8 +54,9 @@ let itemIndex = 0;
 for (let i = 0; i < totalPortfolioItem; i++) {
     portfolioItems[i].addEventListener('click', function(){
         itemIndex = i;
-        changeItem();
-        toggleLightbox();
+        // Below: disable clin on lightbox
+        // changeItem();
+        // toggleLightbox();
     });
 }
 
