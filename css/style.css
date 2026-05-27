@@ -136,7 +136,7 @@ select {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 .section-title h2 {
@@ -852,6 +852,7 @@ select {
     flex: 0 0 33.33%;
     -ms-flex: 0 0 33.33%;
     max-width: 33.33%;
+    min-width: 33.33%;
     margin-bottom: 30px;
     display: -ms-flexbox;
     display: flex;
