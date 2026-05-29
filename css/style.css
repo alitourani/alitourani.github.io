@@ -799,6 +799,33 @@ select {
     max-width: 100%;
 }
 
+.about .about-content .citation-box {
+    position: relative;
+    background-color: #8b8b8b transparent 80%;
+    padding: 30px;
+    border: #333435 dashed 2px;
+    border-radius: 10px;
+    margin: 20px 0;
+    text-align: justify;
+    color:#d4d4e3;
+}
+
+.about .about-content .citation-box::before {
+  content: "“";
+  font-size: 3em;
+  color: #333435;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.about .about-content .citation-box p {
+  padding: 10px;
+  color: #d8d8d8;
+  font-size: small;
+  margin: 0;
+}
+
 .about .about-content .timeline .circle-dot {
     position: absolute;
     left: 0;
