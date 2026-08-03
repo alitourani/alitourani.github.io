@@ -9,7 +9,7 @@ window.addEventListener('load', function(){
 
 // iTyped 
 window.ityped.init(document.querySelector('.iTyped'), {
-    strings: ['R&D Specialist', 'Computer Scientist', 'Senior Software Developer', 'Postdoctoral Researcher'],
+    strings: ['R&D Specialist', 'Computer Scientist', 'Senior Software Developer'],
     loop: true
 });
 
